@@ -1,0 +1,108 @@
+
+button {
+  background: none;
+  border: none;
+}
+.Brasil{
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+}
+
+
+.perfil {
+  border-radius: 50%;
+}
+/* .background {
+  height: 100vh;
+  background-image: url(./fundo1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.background::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+.Content h4 {
+  padding-top: 20px;
+}
+.Content h5 {
+  padding-top: 150px;
+}
+.Bio {
+  font-family: "Consolas", 'Courier New', monospace;
+  font-size: larger;
+}
+
+
+@keyframes Home_wave__eb3wd {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.cardImage {
+  width: 270px;
+  height: 160px;
+}
+
+.projetosCard {
+  background-color: #4e4e4e;
+}
+.tituloProjeto{
+   margin-top: -80px;
+}
+.descProjeto{
+  margin-top: 50px;
+}
+
+
+/* @media (max-width: 768px) {
+  .me-auto {
+    display: contents;
+    flex-direction: row;
+  }
+   
+} */
+/* .Header {
+  background-color: #3e4451;
+  font-family: "Consolas", 'Courier New', monospace;
+  color: #ebf5f5;
+  font-size: 20px;
+  
+} */
