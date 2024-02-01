@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import curriculo from './curriculo.pdf'
-import { NavbarToggler, Navbar, Nav, NavLink, Linker } from './styled'
+import { NavbarToggler, Navbar, Nav, NavLink, Linker, BandButton } from './styled'
 import { LanguageContext } from './LanguageContext';
 import bandSpn from './bandSpn.png'
 import {
@@ -41,11 +41,11 @@ export default function Header(args) {
       <Navbar {...args} fixed="top" height='80px' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <NavbarToggler>{texts.navbar.start}</NavbarToggler>
         <div>
-          <button onClick={() => setLanguage('en')}><img src='https://uploads-ssl.webflow.com/633c3ed2fab2dc95e0de5322/633c407d5f0413042686ada5_language.png' alt='' className='Brasil' /></button>
-          <button onClick={() => setLanguage('pt')}><img src='https://uploads-ssl.webflow.com/633c3ed2fab2dc95e0de5322/633c407d5f0413753386ada7_language%20(1).png' alt='' className='Brasil' loading='lazy' /></button>
-          <button onClick={() => setLanguage('es')}>
+          <BandButton onClick={() => setLanguage('en')}><img src='https://uploads-ssl.webflow.com/633c3ed2fab2dc95e0de5322/633c407d5f0413042686ada5_language.png' alt='' className='Brasil' /></BandButton>
+          <BandButton onClick={() => setLanguage('pt')}><img src='https://uploads-ssl.webflow.com/633c3ed2fab2dc95e0de5322/633c407d5f0413753386ada7_language%20(1).png' alt='' className='Brasil' loading='lazy' /></BandButton>
+          <BandButton onClick={() => setLanguage('es')}>
             <img src={bandSpn} alt='' className='Brasil' loading='lazy' />
-          </button>
+          </BandButton>
         </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar>

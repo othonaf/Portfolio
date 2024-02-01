@@ -13,29 +13,6 @@ button {
 .perfil {
   border-radius: 50%;
 }
-/* .background {
-  height: 100vh;
-  background-image: url(./fundo1.jpg);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-.background::after {
-  content: "";
-  background: rgba(0, 0, 0, 0.6); 
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-} */
 
 .Content h4 {
   padding-top: 20px;

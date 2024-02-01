@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <LanguageProvider>
-
+      <BackApp />
         <Pai>
-          <BackApp></BackApp>
+          
           <div>
             <Header />
           </div>

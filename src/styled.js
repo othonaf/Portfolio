@@ -11,6 +11,17 @@ import {
 } from 'reactstrap';
 import { Link as RRLink } from 'react-router-dom';
 
+export const Pai = styled.div`
+    position: relative;
+    font-family: "Consolas", 'Courier New', monospace;
+    color: #ebf5f5;
+    min-height: 100%;
+    
+`;
+export const BandButton = styled.button`
+    background: none;
+    border: none;
+`;
 export const BackApp = styled.div`
   height: 100vh;
   background-image: url(./fundo1.jpg);
@@ -23,7 +34,7 @@ export const BackApp = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: 0;
 
   &::after {
     content: "";
@@ -36,7 +47,7 @@ export const BackApp = styled.div`
   }
 `;
 export const BackFooter = styled.div`
-     margin-top: 200px;
+      margin-top: 50%;
       background-color: #3e4451;
       position: relative;
 `;
@@ -51,14 +62,7 @@ export const Container = styled(RSContainer)`
     width: 100%;
     position: relative;
 `;
-export const Pai = styled.div`
-    position: relative;;
-    font-family: "Consolas", 'Courier New', monospace;
-    color: #ebf5f5;
-    min-height: 100%;
-    height: 100vh;
-    flex: 1;
-`;
+
 export const Button2 = styled(RSButton)`
     margin-top: 50px
 `;
