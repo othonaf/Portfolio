@@ -46,6 +46,15 @@ export const BackApp = styled.div`
     left: 0;
   }
 `;
+export const ButtonBrasil = styled.img`
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+`;
+export const Perfil = styled.img`
+    border-radius: 50%;
+`;
+
 export const BackFooter = styled.div`
       margin-top: 50%;
       background-color: #3e4451;
@@ -64,7 +73,10 @@ export const Container = styled(RSContainer)`
 `;
 
 export const Button2 = styled(RSButton)`
-    margin-top: 50px
+    margin-top: 50px;
+`;
+export const Titulo = styled.h4`
+  padding-top: 20px;
 `;
 export const Titulo3 = styled.h4`
     padding-top: 20px;

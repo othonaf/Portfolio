@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Row, Col } from 'reactstrap';
-import {Container, HOME_HAND_HQYY5, Titulo3} from './styled'
+import {Container, HOME_HAND_HQYY5, Titulo3, Perfil, Titulo} from './styled'
 import perfil2 from './perfil2.jpeg';
 import ConsoleCard from './ConsoleCard';
 import { LanguageContext } from './LanguageContext';
@@ -12,7 +12,7 @@ function Content() {
     <Container>
       <Row>
         <Col>
-          <img src={perfil2} alt='' width="200" height="200" className='perfil' />
+          <Perfil src={perfil2} alt='' width="200" height="200"/>
         </Col>
       </Row>
       <Row>
@@ -22,7 +22,7 @@ function Content() {
         </Col>
       </Row>
       <Row>
-        <Col><h4>{texts.content.titulo}.</h4></Col>
+        <Col><Titulo>{texts.content.titulo}.</Titulo></Col>
       </Row>
       <br></br>
 
