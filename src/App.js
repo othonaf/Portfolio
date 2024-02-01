@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Fundo, Pai, backFooter } from './styled';
+import { BackApp, Pai, BackFooter } from './styled';
 import Header from './Header';
 import Content from './Content';
 import Footer from './Footer';
@@ -13,7 +13,7 @@ function App() {
       <LanguageProvider>
 
         <Pai>
-          <Fundo></Fundo>
+          <BackApp></BackApp>
           <div>
             <Header />
           </div>
@@ -21,9 +21,9 @@ function App() {
             <Route path="/" element={<Content />} />
             <Route path="/Trabalhos" element={<Trabalhos />} />
           </Routes>
-          <backFooter>
+          <BackFooter>
             <Footer />
-          </backFooter>
+          </BackFooter>
         </Pai>
       </LanguageProvider>
     </Router>

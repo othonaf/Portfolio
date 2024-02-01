@@ -11,7 +11,7 @@ import {
 } from 'reactstrap';
 import { Link as RRLink } from 'react-router-dom';
 
-export const Fundo = styled.div`
+export const BackApp = styled.div`
   height: 100vh;
   background-image: url(./fundo1.jpg);
   background-size: 100%;
@@ -35,7 +35,7 @@ export const Fundo = styled.div`
     left: 0;
   }
 `;
-export const backFooter = styled.div`
+export const BackFooter = styled.div`
      margin-top: 200px;
       background-color: #3e4451;
       position: relative;
