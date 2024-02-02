@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Background, Titulo3, Whatsapp, Container, Titulo4 } from './styled'
+import { Background, Titulo3, Whatsapp, Container, TitulosFooter } from './styled'
 import { Row, Col } from 'reactstrap';
 import whatsimage from './whatsimage.png';
 import outlook from './outlook.png';
@@ -19,14 +19,14 @@ function Footer(props) {
         </Row>
         <Col>
           <Row>
-            <Titulo4> <Whatsapp src={whatsimage} alt='' /> Whatsapp: (85)99810-5575</Titulo4>
+            <TitulosFooter> <Whatsapp src={whatsimage} alt='' /> Whatsapp: (85)99810-5575</TitulosFooter>
           </Row>
-          <Titulo4> <Whatsapp src={outlook} alt='' /> othon.ab@hotmail.com</Titulo4>
+          <TitulosFooter> <Whatsapp src={outlook} alt='' /> othon.ab@hotmail.com</TitulosFooter>
         </Col>
 
         <Col>
           <Row>
-            <Titulo4>{texts.contato.redes}</Titulo4>
+            <TitulosFooter>{texts.contato.redes}</TitulosFooter>
             <p> <a href="https://www.github.com/othonaf" target="_blank" rel="noreferrer">
               <picture>
                 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
@@ -50,7 +50,7 @@ function Footer(props) {
           </Row>
         </Col>
         <Row>
-          <Titulo4>{anoAtual}</Titulo4>
+          <TitulosFooter>{anoAtual}</TitulosFooter>
         </Row>
       </Background>
     </Container>

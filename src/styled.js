@@ -8,12 +8,16 @@ import {
   Card as RSCard,
   Col as RSCol, 
   CardTitle as RSCardTitle,
+  CardText as RSCardText,
   Button as RSButton
 } from 'reactstrap';
 import { Link as RRLink } from 'react-router-dom';
 
 export const CardsProjetos = styled(RSCard)`
     background-color: #4e4e4e;
+`;
+export const DescricaoProjt = styled(RSCardText)`
+    margin-top: 50px;
 `;
 
 export const TituloProjeto = styled(RSCardTitle)`
@@ -86,6 +90,10 @@ export const Button2 = styled(RSButton)`
 `;
 export const Titulo = styled.h4`
   padding-top: 20px;
+`;
+export const TitulosFooter = styled.h6`
+  padding-top: 8px;
+  font-size: medium;
 `;
 export const Titulo3 = styled.h4`
     padding-top: 20px;

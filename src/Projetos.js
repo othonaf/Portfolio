@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
-import { CardBody, CardText, Button } from 'reactstrap'
-import './App.css';
-import {CadImage, CardsProjetos, TituloProjeto} from './styled';
+import { CardBody, Button } from 'reactstrap'
+import {CadImage, CardsProjetos, TituloProjeto, DescricaoProjt} from './styled';
 import cardImage from './calc.png';
 import { LanguageContext } from './LanguageContext';
 
@@ -9,7 +8,7 @@ import { LanguageContext } from './LanguageContext';
 const Projetos = () => {
     const { texts } = useContext(LanguageContext);
     const handleClick = () => {
-        window.open('https://frontend-calculadora-mercado-p-65eb42d5d0ce.herokuapp.com/', '_blank');
+        window.open('https://frontend-mercado-livre.onrender.com/', '_blank');
     }
     return (
         <CardsProjetos
@@ -24,9 +23,9 @@ const Projetos = () => {
                 <TituloProjeto>
                     {texts.projetos.tituloCard1}
                 </TituloProjeto>
-                <CardText className='descProjeto'>
+                <DescricaoProjt>
                     {texts.projetos.descCard1}
-                </CardText>
+                </DescricaoProjt>
                 <Button onClick={handleClick}>
                     {texts.projetos.botao}
                 </Button>

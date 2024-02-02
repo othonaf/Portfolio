@@ -1,20 +1,16 @@
 
-.descProjeto{
-  margin-top: 50px;
-}
 
-
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .me-auto {
     display: contents;
     flex-direction: row;
   }
    
-} */
-/* .Header {
+} 
+ .Header {
   background-color: #3e4451;
   font-family: "Consolas", 'Courier New', monospace;
   color: #ebf5f5;
   font-size: 20px;
   
-} */
+}
