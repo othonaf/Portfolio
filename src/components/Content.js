@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { Row, Col } from 'reactstrap';
-import {Container, HOME_HAND_HQYY5, Titulo4, Perfil, Titulo} from './styled'
-import perfil2 from './perfil2.jpeg';
+import {Container, HOME_HAND_HQYY5, Titulo4, Perfil, Titulo} from '../styled'
+import perfil2 from '../perfil2.jpeg';
 import ConsoleCard from './ConsoleCard';
-import { LanguageContext } from './LanguageContext';
+import { LanguageContext } from '../LanguageContext';
 
 
 function Content() {

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { CardBody, Button } from 'reactstrap'
-import {CadImage, CardsProjetos, TituloProjeto, DescricaoProjt} from './styled';
-import cardImage from './calc.png';
-import { LanguageContext } from './LanguageContext';
+import {CadImage, CardsProjetos, TituloProjeto, DescricaoProjt} from '../styled';
+import cardImage from '../calc.png';
+import { LanguageContext } from '../LanguageContext';
 
 
 const Projetos = () => {

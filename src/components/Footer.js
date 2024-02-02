@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { Background, Titulo3, Whatsapp, Container, TitulosFooter } from './styled'
+import { Background, Titulo3, Whatsapp, Container, TitulosFooter } from '../styled'
 import { Row, Col } from 'reactstrap';
-import whatsimage from './whatsimage.png';
-import outlook from './outlook.png';
-import { LanguageContext } from './LanguageContext';
+import whatsimage from '../whatsimage.png';
+import outlook from '../outlook.png';
+import { LanguageContext } from '../LanguageContext';
 
 const anoAtual = new Date().toLocaleDateString('pt-BR', {
   year: 'numeric'

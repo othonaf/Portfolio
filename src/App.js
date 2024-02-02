@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { BackApp, Pai, BackFooter } from './styled';
-import Header from './Header';
-import Content from './Content';
-import Footer from './Footer';
-import Trabalhos from './Trabalhos';
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import Trabalhos from './components/Trabalhos';
 import { LanguageProvider } from './LanguageContext';
 
 function App() {

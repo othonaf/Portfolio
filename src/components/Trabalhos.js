@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
-import './App.css';
-import {Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2} from './styled'
+import {Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2} from '../styled'
 import { Row } from 'reactstrap';
 import { useNavigate } from 'react-router-dom';
 import Projetos from './Projetos';
-import { LanguageContext } from './LanguageContext';
+import { LanguageContext } from '../LanguageContext';
 
 function Trabalhos() {
     const { texts } = useContext(LanguageContext);

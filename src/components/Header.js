@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import curriculo from './curriculo.pdf'
-import { NavbarToggler, Navbar, Nav, NavLink, Linker, BandButton, ButtonBrasil } from './styled'
-import { LanguageContext } from './LanguageContext';
-import bandSpn from './bandSpn.png'
+import curriculo from '../curriculo.pdf'
+import { NavbarToggler, Navbar, Nav, NavLink, Linker, BandButton, ButtonBrasil } from '../styled'
+import { LanguageContext } from '../LanguageContext';
+import bandSpn from '../bandSpn.png'
 import {
   NavbarBrand,
   NavItem,

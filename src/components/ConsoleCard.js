@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react';
 import { CardBody } from 'reactstrap';
-import {Card, Console1, Console2, Console3} from './styled';
+import {Card, Console1, Console2, Console3} from '../styled';
 import Typewriter from 'typewriter-effect';
-import { LanguageContext } from './LanguageContext';
+import { LanguageContext } from '../LanguageContext';
 
 
 
