@@ -12,7 +12,7 @@ import {
   Button as RSButton
 } from 'reactstrap';
 import { Link as RRLink } from 'react-router-dom';
-// import fundo1 from './fundo1.jpg'
+import fundo1 from './fundo1.jpg'
 
 export const CardsProjetos = styled(RSCard)`
     background-color: #4e4e4e;
@@ -38,7 +38,7 @@ export const BandButton = styled.button`
 `;
 export const BackApp = styled.div`
   height: 100vh;
-  background-image: url('./fundo1.jpg');
+  background-image: url(${fundo1});
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ export const Body = styled.body`
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-`
+`;
 export const Background = styled.div`
     margin-top: 200px;
     background-color: #3e4451;

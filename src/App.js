@@ -11,8 +11,10 @@ function App() {
   return (
     <Router>
       <LanguageProvider>
-      <BackApp />
+        
+      
         <Pai>
+        <BackApp />
           <div>
             <Header />
           </div>
@@ -24,6 +26,7 @@ function App() {
             <Footer />
           </BackFooter>
         </Pai>
+        
       </LanguageProvider>
     </Router>
   );
