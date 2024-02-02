@@ -7,9 +7,18 @@ import {
   NavLink as RSNavLink,
   Card as RSCard,
   Col as RSCol, 
+  CardTitle as RSCardTitle,
   Button as RSButton
 } from 'reactstrap';
 import { Link as RRLink } from 'react-router-dom';
+
+export const CardsProjetos = styled(RSCard)`
+    background-color: #4e4e4e;
+`;
+
+export const TituloProjeto = styled(RSCardTitle)`
+    margin-top: -10px;
+`;
 
 export const Pai = styled.div`
     position: relative;
@@ -82,8 +91,7 @@ export const Titulo3 = styled.h4`
     padding-top: 20px;
 `;
 export const Titulo4 = styled.h5`
-    
-    font-size: medium;
+    padding-top: 150px;
 `;
 export const Whatsapp = styled.img`
     height: 20px;
@@ -98,11 +106,6 @@ export const Background = styled.div`
     margin-top: 200px;
     background-color: #3e4451;
     position: relative;
-`;
-export const HOME_HAND_HQYY5 = styled.span`
-    animation: Home_wave__eb3wd 2s infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
 `;
 
 export const Home_wave__eb3wd = keyframes`
@@ -131,6 +134,13 @@ export const Home_wave__eb3wd = keyframes`
     transform: rotate(0deg);
   }
 `;
+
+export const HOME_HAND_HQYY5 = styled.span`
+    animation: ${Home_wave__eb3wd} 2s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+`;
+
 export const Card = styled(RSCard)`
     font-size: larger;
     margin-top: 180px;
@@ -310,3 +320,7 @@ export const Linker = styled(RRLink)`
     align-items: center;
     text-decoration: none;
 `
+export const CadImage = styled.img`
+    width: 270px;
+    height: 160px;
+`;

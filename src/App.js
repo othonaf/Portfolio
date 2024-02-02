@@ -13,7 +13,6 @@ function App() {
       <LanguageProvider>
       <BackApp />
         <Pai>
-          
           <div>
             <Header />
           </div>
