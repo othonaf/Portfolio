@@ -387,9 +387,9 @@ export const SkillCard = styled.div`
   
 
   &:nth-child(1) ${SkillLevel}{
-    background: #ff4f4f28;
-    border-color: #ff4f4f;
-    color: #ff4f4f;
+    background: #52ff4f28;
+    border-color: #52ff4f;
+    color: #52ff4f;
   }
 
   &:nth-child(2) ${SkillLevel}{
@@ -405,12 +405,53 @@ export const SkillCard = styled.div`
   }
 
   &:nth-child(4) ${SkillLevel}{
-    background: #52ff4f28;
-    border-color: #52ff4f;
-    color: #52ff4f;
+    background: #ff4f4f28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+
   }
 
   &:nth-child(5) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(6) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(7) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(8) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(9) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(10) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(11) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(12) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+  &:nth-child(13) ${SkillLevel}{
     background: #4fdfff28;
     border-color: #4fdfff;
     color: #4fdfff;
