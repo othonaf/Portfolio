@@ -384,6 +384,7 @@ export const SkillLevel = styled.div`
 export const SkillCard = styled.div`
   position: relative;
   background-color: rgb(48, 52, 67);
+  
 
   &:nth-child(1) ${SkillLevel}{
     background: #ff4f4f28;
@@ -428,6 +429,7 @@ export const SkillName = styled.h1`
   text-align: center;
   text-transform: capitalize;
   margin: 30px 0 20px;
+  text-decoration: none;
 `;
 
 export const SkillInfo = styled.p`
