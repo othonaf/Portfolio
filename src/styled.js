@@ -6,13 +6,15 @@ import {
   Nav as RSNav,
   NavLink as RSNavLink,
   Card as RSCard,
-  Col as RSCol, 
+  Col as RSCol,
   CardTitle as RSCardTitle,
   CardText as RSCardText,
   Button as RSButton
 } from 'reactstrap';
 import { Link as RRLink } from 'react-router-dom';
 import fundo1 from './fundo1.jpg'
+
+
 
 export const CardsProjetos = styled(RSCard)`
     background-color: #4e4e4e;
@@ -85,7 +87,6 @@ export const Container = styled(RSContainer)`
     width: 100%;
     position: relative;
 `;
-
 export const Button2 = styled(RSButton)`
     margin-top: 50px;
 `;
@@ -273,7 +274,7 @@ export const Cartao = styled.div`
     background: #4fa0ff;
   }
 
-  &:nth-child(even) .card-body:before{
+  &:nth-child(even) ${CartaoBody}:before{
     content: '';
     position: absolute;
     left: -12%;
@@ -343,3 +344,96 @@ export const CadImage = styled.img`
     width: 270px;
     height: 160px;
 `;
+
+export const SkillSection = styled.div`
+  position: relative;
+  margin: 100px 0;
+`;
+
+export const HeadingSkills = styled.h1`
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-bottom: 100px;
+`;
+
+export const SkillsContainer = styled.div`
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  color: #fff;
+`;
+export const SkillLevel = styled.div`
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-radius: 50%;
+  border: 10px solid;
+`;
+
+export const SkillCard = styled.div`
+  position: relative;
+  background-color: rgb(48, 52, 67);
+
+  &:nth-child(1) ${SkillLevel}{
+    background: #ff4f4f28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+  }
+
+  &:nth-child(2) ${SkillLevel}{
+    background: #4fa0ff28;
+    border-color: #4fa0ff;
+    color: #4fa0ff;
+  }
+
+  &:nth-child(3) ${SkillLevel}{
+    background: #ffed4f28;
+    border-color: #ffed4f;
+    color: #ffed4f;
+  }
+
+  &:nth-child(4) ${SkillLevel}{
+    background: #52ff4f28;
+    border-color: #52ff4f;
+    color: #52ff4f;
+  }
+
+  &:nth-child(5) ${SkillLevel}{
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+  }
+`;
+
+export const SkillImg = styled.img`
+  display: block;
+  margin: auto;
+  height: 200px;
+`;
+
+export const SkillName = styled.h1`
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px 0 20px;
+`;
+
+export const SkillInfo = styled.p`
+  text-align: center;
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 30px;
+`;
+

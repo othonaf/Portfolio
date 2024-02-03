@@ -18,7 +18,7 @@ function Trabalhos() {
             <Row>
                 <Col>
                     <Timeline>
-                        <Heading>{texts.trabalhos.titulo} </Heading>
+                        <Heading>{texts.trabalhos.titulo}:</Heading>
                         <Cartao>
                             <CartaoBody>
                                 <CartaoTitulo>2014-2017</CartaoTitulo>
