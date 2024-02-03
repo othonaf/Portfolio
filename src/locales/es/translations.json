@@ -34,5 +34,20 @@
         "titulo2": "Proyectos realizados:",
         "botão": "Volver"
 
+    },
+    "hardskills": {
+        "javascript": "Utilizo TypeScript y NodeJS para crear cosas valiosas para las personas.",
+        "TypeScript": "Me ayuda mucho a crear aplicaciones Web (especialmente en el Backend), me encanta este superconjunto.",
+        "git": "Úselo para todo lo que es más esencial para un programador (versiones de código, etc.)",
+        "react": "La herramienta de creación de Frontend que domino y prefiero usar. Esta página fue creada con ReactJS.",
+        "mysql": "La base de datos de código abierto más popular del mundo",
+        "PostgreSQL": "La base de datos que más uso y prefiero para proyectos personales",
+        "nodejs": "Es mi 'punto fuerte' en este momento, la principal tecnología que uso en aplicaciones web.",
+        "express": "Fue el primer marco de aplicación web con el que hice algo realmente significativo.",
+        "heroku": "Ya he creado aplicaciones tanto en el Backend como en el Frontend para ejecutarlas en Heroku, lástima que ahora sea pago 😢.",
+        "docker": "Tengo sólidos conocimientos en programación en Microservicios, creación y mantenimiento de aplicaciones en Contenedores",
+        "aws": "Sigo aprendiendo sobre AWS, pronto tendré la Certificación 'AWS Developer Associate'",
+        "gcp": "Obtuve experiencia práctica en mi último puesto.",
+        "nest": "Más práctico de construir que ExpressJS. ¡A mí también me encanta NestJS!"
     }
 }

@@ -1,3 +1,5 @@
+import React, { useContext } from 'react';
+import { LanguageContext } from '../LanguageContext';
 import {
     SkillsContainer,
     SkillLevel,
@@ -11,6 +13,7 @@ import {
     from '../styled';
 
 function HardSkills(props) {
+    const { texts } = useContext(LanguageContext);
     return (
         <SkillSection>
             <HeadingSkills>{props.text}:</HeadingSkills>
@@ -21,7 +24,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>98%</SkillLevel>
                     <SkillName>JavaScript</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.javascript}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
@@ -29,7 +32,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>98%</SkillLevel>
                     <SkillName>TypeScript</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.TypeScript}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
@@ -37,7 +40,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>98%</SkillLevel>
                     <SkillName>Git</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.git}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
@@ -45,7 +48,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>89%</SkillLevel>
                     <SkillName>ReactJS</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.react}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
@@ -53,7 +56,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>81%</SkillLevel>
                     <SkillName>MySQL</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.mysql}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
@@ -61,7 +64,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>90%</SkillLevel>
                     <SkillName>PostgreSQL</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.PostgreSQL}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
@@ -69,7 +72,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>90%</SkillLevel>
                     <SkillName>NodeJS</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.nodejs}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
@@ -77,7 +80,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>90%</SkillLevel>
                     <SkillName>ExpressJS</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.express}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://www.heroku.com/" target="_blank" rel="noreferrer">
@@ -85,7 +88,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>90%</SkillLevel>
                     <SkillName>Heroku</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.heroku}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
@@ -93,15 +96,15 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>80%</SkillLevel>
                     <SkillName>Docker</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.docker}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
                         <SkillImg src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" alt="" />
                     </a>
-                    <SkillLevel>87%</SkillLevel>
+                    <SkillLevel>67%</SkillLevel>
                     <SkillName>AWS</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.aws}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://cloud.google.com/" target="_blank" rel="noreferrer">
@@ -109,7 +112,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>87%</SkillLevel>
                     <SkillName>Google Cloud</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.gcp}</SkillInfo>
                 </SkillCard>
                 <SkillCard>
                     <a href="https://nestjs.com/" target="_blank" rel="noreferrer">
@@ -117,7 +120,7 @@ function HardSkills(props) {
                     </a>
                     <SkillLevel>87%</SkillLevel>
                     <SkillName>NestJS</SkillName>
-                    <SkillInfo></SkillInfo>
+                    <SkillInfo>{texts.hardskills.nest}</SkillInfo>
                 </SkillCard>
             </SkillsContainer>
         </SkillSection>

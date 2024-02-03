@@ -34,5 +34,20 @@
         "titulo2": "Projects carried out:",
         "botão": "Back"
 
+    },
+    "hardskills": {
+        "javascript": "I use TypeScript and NodeJS to create valuable things for people.",
+        "TypeScript": "It helps me a lot to create Web applications (especially in the Backend), I love this superset.",
+        "git": "Use for everything that is most essential for a Programmer (code versioning, etc.)",
+        "react": "The Frontend building tool that I master and prefer to use. This page was made with ReactJS.",
+        "mysql": "The world's most popular open source database",
+        "PostgreSQL": "The database I use most and prefer for personal projects",
+        "nodejs": "It's my 'strong point' at the moment, the main technology I use in web applications.",
+        "express": "It was the first web application framework with which I did something really meaningful.",
+        "heroku": "I've already created applications on both the Backend and Frontend to run on Heroku, too bad it's now paid 😢.",
+        "docker": "I have solid knowledge in programming in Microservices, creating and maintaining applications in Containers",
+        "aws": "I continue to learn about AWS, I will soon have the 'AWS Developer Associate' Certification",
+        "gcp": "I got hands-on experience in my last role.",
+        "nest": "More practical to build than ExpressJS. I'm loving NestJS too!"
     }
 }
