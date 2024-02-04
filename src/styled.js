@@ -12,12 +12,16 @@ import {
   Button as RSButton
 } from 'reactstrap';
 import { Link as RRLink } from 'react-router-dom';
-import fundo1 from './fundo1.jpg'
-
+import fundo1 from './fundo1.jpg';
 
 
 export const CardsProjetos = styled(RSCard)`
     background-color: #4e4e4e;
+
+    @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 `;
 export const DescricaoProjt = styled(RSCardText)`
     margin-top: 50px;
@@ -32,6 +36,14 @@ export const Pai = styled.div`
     font-family: "Consolas", 'Courier New', monospace;
     color: #ebf5f5;
     min-height: 100%;
+    padding: 20px;
+
+    @media (max-width: 767px) {
+        flex-direction: column;  
+        padding: 10px;
+        max-width: 500px;
+        font-size: 40px;
+    }
     
 `;
 export const BandButton = styled.button`
@@ -41,7 +53,6 @@ export const BandButton = styled.button`
 export const BackApp = styled.div`
   height: 100vh;
   background-image: url(${fundo1});
-  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,6 +72,14 @@ export const BackApp = styled.div`
     bottom: 0;
     left: 0;
   }
+
+  @media (max-width: 767px) {
+        padding: 10px; 
+        font-size: 14px; 
+        width: 100%;
+        position: fixed;
+        height: 100%;
+    }
 `;
 export const ButtonBrasil = styled.img`
     border-radius: 50%;
@@ -86,6 +105,12 @@ export const Container = styled(RSContainer)`
     color: #ffffff;
     width: 100%;
     position: relative;
+
+    @media (max-width: 767px) {
+        padding: 10px; 
+        font-size: 14px; 
+        width: 500px;
+    }
 `;
 export const Button2 = styled(RSButton)`
     margin-top: 50px;
@@ -110,7 +135,15 @@ export const Whatsapp = styled.img`
 export const Body = styled.body`
     display: flex;
     min-height: 100vh;
+    flex-direction: row;
+
+    @media (max-width: 500px) {
+    margin: 5px;
+    padding: 5px;
+    max-width: 500px;
+    display: flex;
     flex-direction: column;
+}
 `;
 export const Background = styled.div`
     margin-top: 200px;
@@ -314,6 +347,11 @@ export const Navbar = styled(RSNavbar)`
   font-family: "Consolas", 'Courier New', monospace;
   color: #ebf5f5;
   font-size: 20px;
+
+  @media (max-width: 767px) {
+        height: 60px;
+        width: 500px;
+    }
 `;
 
 export const Button = styled.button`
@@ -366,6 +404,14 @@ export const SkillsContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 100px;
   color: #fff;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
 `;
 export const SkillLevel = styled.div`
   position: absolute;
