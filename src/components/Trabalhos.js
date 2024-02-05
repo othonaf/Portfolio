@@ -1,9 +1,11 @@
 import React, { useContext } from 'react';
-import {Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2} from '../styled'
+import {Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2, ProjetosContainer} from '../styled'
 import { Row } from 'reactstrap';
 import { useNavigate } from 'react-router-dom';
 import Projetos from './Projetos';
 import { LanguageContext } from '../LanguageContext';
+import cardImage from '../calc.png';
+
 
 function Trabalhos() {
     const { texts } = useContext(LanguageContext);
@@ -55,11 +57,18 @@ function Trabalhos() {
 
                 </Col>
             </Row>
-            <Row>
-                <h3>{texts.trabalhos.titulo2} </h3>
-                <Col><Projetos /></Col>
+            
+                <h3>{texts.trabalhos.titulo2} </h3><br />
+                <ProjetosContainer>
+                    <Projetos
+                        link={'https://frontend-mercado-livre.onrender.com/'}
+                        tituloCard1={texts.projetos.tituloCard1}
+                        descCard1={texts.projetos.descCard1} 
+                        imagem={cardImage}
+                    />
+                </ProjetosContainer>
 
-            </Row>
+            
             <Button2 onClick={handleClick}>
                 {texts.trabalhos.botão}
             </Button2>

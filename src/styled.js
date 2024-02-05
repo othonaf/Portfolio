@@ -17,11 +17,30 @@ import fundo1 from './fundo1.jpg';
 
 export const CardsProjetos = styled(RSCard)`
     background-color: #4e4e4e;
-
+    width: 300px;
+    
     @media (max-width: 768px) {
     width: 100%;
     margin-bottom: 20px;
   }
+`;
+export const ProjetosContainer = styled.div`
+    width: 270px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    color: #fff;
+
+    @media (max-width: 768px) {
+      margin: auto;
+      width: 100%;
+      margin-bottom: 20px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
 `;
 export const DescricaoProjt = styled(RSCardText)`
     margin-top: 50px;
@@ -37,6 +56,7 @@ export const Pai = styled.div`
     color: #ebf5f5;
     min-height: 100%;
     width: 100%;
+    height: 80%;
 
     @media (max-width: 767px) {
         position: relative;  
@@ -135,7 +155,7 @@ export const Whatsapp = styled.img`
 `;
 export const Body = styled.body`
     display: flex;
-    min-height: 100vh;
+    min-height: 100%;
     flex-direction: row;
 
     @media (max-width: 500px) {
@@ -210,14 +230,16 @@ export const Heading = styled.h1`
     margin-bottom: 110px;
 `;
 export const CartaoBody = styled.div`
-overflow: auto;
+  height: 100%;
+  overflow: auto;
+
 &:nth-child(even):before {
   content: '';
   position: absolute;
   left: -12%;
   top: 0;
   width: 0px;
-  height: 100%;
+  min-height: 100%;
   border: 1px dashed #fff;
   z-index: -1;
 }
@@ -228,7 +250,8 @@ export const CartaoTitulo = styled.h1`
     margin-bottom: 20px;
 `;
 export const Cartao = styled.div`
-   width: 45%;
+  position: relative;
+  width: 45%;
   padding: 30px;
   border-radius: 10px;
   color: #fff;
@@ -383,6 +406,11 @@ export const Linker = styled(RRLink)`
 export const CadImage = styled.img`
     width: 270px;
     height: 160px;
+
+    @media (max-width: 767px) {
+      width: auto;
+      height: 250px;
+    }
 `;
 
 export const SkillSection = styled.div`

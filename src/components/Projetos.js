@@ -1,30 +1,27 @@
 import React, { useContext } from 'react';
 import { CardBody, Button } from 'reactstrap'
 import {CadImage, CardsProjetos, TituloProjeto, DescricaoProjt} from '../styled';
-import cardImage from '../calc.png';
 import { LanguageContext } from '../LanguageContext';
 
 
-const Projetos = () => {
+const Projetos = (props) => {
     const { texts } = useContext(LanguageContext);
     const handleClick = () => {
-        window.open('https://frontend-mercado-livre.onrender.com/', '_blank');
+        window.open(props.link, '_blank');
     }
     return (
         <CardsProjetos
             body
             inverse
-            style={{
-                width: '19rem', 
-            }}
+            
         >
-            <CadImage alt="" src={cardImage} />
+            <CadImage alt="" src={props.imagem} />
             <CardBody>
                 <TituloProjeto>
-                    {texts.projetos.tituloCard1}
+                    {props.tituloCard1}
                 </TituloProjeto>
                 <DescricaoProjt>
-                    {texts.projetos.descCard1}
+                    {props.descCard1}
                 </DescricaoProjt>
                 <Button onClick={handleClick}>
                     {texts.projetos.botao}
