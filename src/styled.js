@@ -36,11 +36,11 @@ export const Pai = styled.div`
     font-family: "Consolas", 'Courier New', monospace;
     color: #ebf5f5;
     min-height: 100%;
-    padding: 20px;
+    width: 100%;
 
     @media (max-width: 767px) {
-        flex-direction: column;  
-        padding: 10px;
+        position: relative;  
+        padding: 0px;
         max-width: 500px;
         font-size: 40px;
     }
@@ -94,6 +94,7 @@ export const BackFooter = styled.div`
       margin-top: 50%;
       background-color: #3e4451;
       position: relative;
+      padding: 0px;
 `;
 
 export const Container = styled(RSContainer)`
@@ -108,7 +109,7 @@ export const Container = styled(RSContainer)`
 
     @media (max-width: 767px) {
         padding: 10px; 
-        font-size: 14px; 
+        font-size: 22px; 
         width: 500px;
     }
 `;
@@ -209,6 +210,7 @@ export const Heading = styled.h1`
     margin-bottom: 110px;
 `;
 export const CartaoBody = styled.div`
+overflow: auto;
 &:nth-child(even):before {
   content: '';
   position: absolute;
@@ -326,14 +328,10 @@ export const Nav = styled(RSNav)`
     @media (max-width: 768px) {
       display: contents;
       flex-direction: row;
-  }
-
-  .submenu {
-    margin-right: 30px;
-    align-items: center;
-    justify-content: left;
+      font-size: 25px;
   }
 `;
+
 export const Col = styled(RSCol)`
     margin-top: 50px;
 `;
@@ -349,8 +347,12 @@ export const Navbar = styled(RSNavbar)`
   font-size: 20px;
 
   @media (max-width: 767px) {
-        height: 60px;
+        height: auto;
+        min-height: 80px;
         width: 500px;
+        color: #ebf5f5;
+        font-size: 40px;
+        
     }
 `;
 
@@ -401,7 +403,7 @@ export const SkillsContainer = styled.div`
   width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 100px;
   color: #fff;
 
