@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import {Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2, ProjetosContainer} from '../styled'
+import {LinhaDireita, Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2, ProjetosContainer} from '../styled'
 import { Row } from 'reactstrap';
 import { useNavigate } from 'react-router-dom';
 import Projetos from './Projetos';
@@ -29,10 +29,10 @@ function Trabalhos() {
                             </CartaoBody>
                         </Cartao>
                         <Cartao>
-                            <CartaoBody>
+                            <LinhaDireita>
                                 <CartaoTitulo>2021-2022</CartaoTitulo>
                                 <p>{texts.trabalhos.detalheCard2}</p>
-                            </CartaoBody>
+                            </LinhaDireita>
                         </Cartao>
                         <Cartao>
                             <CartaoBody>
@@ -41,10 +41,10 @@ function Trabalhos() {
                             </CartaoBody>
                         </Cartao>
                         <Cartao>
-                            <CartaoBody>
+                            <LinhaDireita>
                                 <CartaoTitulo>2022-2023</CartaoTitulo>
                                 <p>{texts.trabalhos.detalheCard4}</p>
-                            </CartaoBody>
+                            </LinhaDireita>
                         </Cartao>
                         <Cartao>
                             <CartaoBody>

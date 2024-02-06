@@ -44,10 +44,18 @@ export const ProjetosContainer = styled.div`
 `;
 export const DescricaoProjt = styled(RSCardText)`
     margin-top: 50px;
+
+    @media (max-width: 500px){
+      font-size: larger;
+    }
 `;
 
 export const TituloProjeto = styled(RSCardTitle)`
     margin-top: -10px;
+
+    @media (max-width: 500px){
+      font-size: larger;
+    }
 `;
 
 export const Pai = styled.div`
@@ -244,6 +252,21 @@ export const CartaoBody = styled.div`
   z-index: -1;
 }
 `;
+export const LinhaDireita = styled.div`
+  height: 100%;
+  overflow: auto;
+
+&:nth-child(even):before {
+  content: '';
+  position: absolute;
+  right: -12%;
+  top: 0;
+  width: 0px;
+  min-height: 100%;
+  border: 1px dashed #fff;
+  z-index: -1;
+}
+`;
 export const CartaoTitulo = styled.h1`
     font-size: 30px;
     font-weight: 300;
@@ -256,10 +279,57 @@ export const Cartao = styled.div`
   border-radius: 10px;
   color: #fff;
   display: block;
-  margin: -80px 0;
+  margin: 20px 0;
   position: relative;
   background: #f00;
 
+  @media (max-width: 700px) {
+    width: 100%;
+    
+    &:nth-child(even) ${CartaoBody}:before{
+    content: '';
+    position: absolute;
+    left: -12%;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    border: 1px dashed #fff;
+    z-index: -1;
+  }
+  &:nth-child(odd) ${LinhaDireita}:before{
+    content: '';
+    position: absolute;
+    left: -12%;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    border: 1px dashed #fff;
+    z-index: -1;
+  }
+  &:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    left: -13%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #191919;
+    border-radius: 50%;
+  }
+  &:nth-child(odd):after{
+    content: '';
+    position: absolute;
+    left: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+    background: #fff;
+    z-index: -1;
+  }
+    
+}
   &:nth-child(even){
     margin-left: auto;
   }
@@ -336,6 +406,16 @@ export const Cartao = styled.div`
     content: '';
     position: absolute;
     left: -12%;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    border: 1px dashed #fff;
+    z-index: -1;
+  }
+  &:nth-child(odd) ${LinhaDireita}:before{
+    content: '';
+    position: absolute;
+    right: -11%;
     top: 0;
     width: 0px;
     height: 100%;

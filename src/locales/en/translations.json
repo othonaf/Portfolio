@@ -4,10 +4,10 @@
         "aboutMe": "About me",
         "worksAndExperiences": "Works and Experiences",
         "contact": "Contact",
-        "curriculum": "Curriculum (Português)"
+        "curriculum": "Resume (Português)"
     },
     "console": {
-        "texto": "Graduated in Systems Analysis and Development from Fatene since 2017 and specialized in Fullstack programming from Labenu. Since 2021, I have been building REST APIs on the Backend with a focus on Node.JS, TypeScript, Express.JS, Knex.JS and PostgreSQL, as well as using React.JS on the Frontend. In my last contract I also had experience with tools such as: Datadog, Kibana Elastic and Google Cloud Platform. My professional ambition is to advance my career as a Backend and Frontend Developer.",
+        "texto": "I have a degree in Systems Analysis and Development from Fatene since 2017 and specialized in Fullstack programming from Labenu. Since 2021, I have been building REST APIs in the Backend with a focus on Node.JS, TypeScript, Express.JS, Nest.JS and PostgreSQL. I also build interfaces using React.JS on Frontend. In addition to technical skills, I have excellent team collaboration and clear communication skills. Throughout my academic training and practical experience, I developed robust skills in web development, actively participated in projects that improved the user experience, prioritizing cleaner and more efficient interfaces. I am enthusiastic about driving challenging projects.",
         "console3": "About me:"
     },
     "content": {
@@ -38,7 +38,7 @@
 
     },
     "hardskills": {
-        "javascript": "I use TypeScript and NodeJS to create valuable things for people.",
+        "javascript": "I Use with TypeScript and Node JS to create powerful Backend tools..",
         "TypeScript": "It helps me a lot to create Web applications (especially in the Backend), I love this superset.",
         "git": "Use for everything that is most essential for a Programmer (code versioning, etc.)",
         "react": "The Frontend building tool that I master and prefer to use. This page was made with ReactJS.",

@@ -7,7 +7,7 @@
         "curriculum": "Currículo (Português)"
     },
     "console": {
-        "texto": "Formado em Análise e Desenvolvimento de Sistemas pela Fatene desde 2017 e especializado em programação Fullstack pela Labenu. Desde 2021 construo APIs REST no Backend com foco em Node.JS, TypeScript, Express.JS, Knex.JS e PostgreSQL, além de utilizar React.JS no Frontend. No meu último contrato também tive experiência com ferramentas como: Datadog, Kibana Elastic e Google Cloud Platform. Minha ambição profissional é avançar em minha carreira como Desenvolvedor Backend e Frontend.",
+        "texto": "Sou formado em Análise e Desenvolvimento de Sistemas pela Fatene desde 2017 e especializado em programação Fullstack pela Labenu. Desde 2021 construo APIs REST no Backend com foco em Node.JS, TypeScript, Express.JS, Nest.JS e PostgreSQL. Também construo interfaces utilizando React.JS no Frontend. Além das habilidades técnicas, possuo excelente capacidade de colaboração em equipe e comunicação clara. Ao longo de minha formação acadêmica e experiência prática, desenvolvi habilidades robustas em desenvolvimento web, participei ativamente de projetos que aprimoraram a experiência do usuário, priorizando interfaces mais limpas e eficientes. Sou entusiasmado para impulsionar projetos desafiadores.",
         "console3": "Sobre mim:"
     },
     "content": {
@@ -38,12 +38,12 @@
 
     },
     "hardskills": {
-        "javascript": "Uso aliado ao TypeScript e ao NodeJS para criar coisas valiosas para as pessoas.",
+        "javascript": "Uso aliado ao TypeScript e ao NodeJS para criar poderosas ferramentas de Backend.",
         "TypeScript": "Me ajuda e muito a criar aplicações Web (principalmente no Backend), amo este superset.",
         "git": "Uso para tudo o que é mais essencial para um Programador (versionamento de códigos, etc).",
-        "react": "A ferramenta de construção de Frontend que domino e que prefiro usar. Esta página foi feita com ReactJS.",
-        "mysql": "O banco de dados de código aberto mais popular do mundo",
-        "PostgreSQL": "O banco de dados que mais uso e prefiro para projetos pessoais",
+        "react": "A ferramenta de construção de Frontend que domino e que prefiro usar. Esta página foi feita usando ReactJS.",
+        "mysql": "O banco de dados de código aberto mais popular do mundo.",
+        "PostgreSQL": "O banco de dados que mais uso e prefiro para projetos pessoais.",
         "nodejs": "É o meu 'ponto forte' no momento, a tecnologia principal que uso em aplicações Web.",
         "express": "Foi a primeira estrutura de aplicação web com a qual eu fiz algo realmente relevante.",
         "heroku": "Já criei aplicações tanto no Backend quanto no Frontend para rodarem no Heroku, pena que agora ele é pago 😢.",

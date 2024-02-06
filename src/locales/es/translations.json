@@ -7,7 +7,7 @@
         "curriculum": "Historial profesional (Português)"
     },
     "console": {
-        "texto": "Licenciado en Análisis y Desarrollo de Sistemas por Fatene desde 2017 y especializado en programación Fullstack por Labenu. Desde 2021, he estado creando API REST en el Backend con enfoque en Node.JS, TypeScript, Express.JS, Knex.JS y PostgreSQL, además de usar React.JS en el Frontend. En mi último contrato también tuve experiencia con herramientas como: Datadog, Kibana Elastic y Google Cloud Platform. Mi ambición profesional es avanzar en mi carrera como Desarrollador Backend y Frontend.",
+        "texto": "Soy licenciado en Análisis y Desarrollo de Sistemas por Fatene desde 2017 y especializado en programación Fullstack por Labenu. Desde 2021, he estado creando API REST en el backend con un enfoque en Node.JS, TypeScript, Express.JS, Nest.JS y PostgreSQL. También construyo interfaces usando React.JS en Frontend. Además de las habilidades técnicas, tengo una excelente colaboración en equipo y una clara capacidad de comunicación. A lo largo de mi formación académica y experiencia práctica, desarrollé sólidas habilidades en desarrollo web, participé activamente en proyectos que mejoraron la experiencia del usuario, priorizando interfaces más limpias y eficientes. Me entusiasma impulsar proyectos desafiantes.",
         "console3": "Sobre mi:"
     },
     "content": {
@@ -38,7 +38,7 @@
 
     },
     "hardskills": {
-        "javascript": "Utilizo TypeScript y NodeJS para crear cosas valiosas para las personas.",
+        "javascript": "Úselo con TypeScript y Node JS para crear potentes herramientas de backend.",
         "TypeScript": "Me ayuda mucho a crear aplicaciones Web (especialmente en el Backend), me encanta este superconjunto.",
         "git": "Úselo para todo lo que es más esencial para un programador (versiones de código, etc.)",
         "react": "La herramienta de creación de Frontend que domino y prefiero usar. Esta página fue creada con ReactJS.",
