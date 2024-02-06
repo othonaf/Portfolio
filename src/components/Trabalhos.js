@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import Projetos from './Projetos';
 import { LanguageContext } from '../LanguageContext';
 import cardImage from '../calc.png';
+import chartImage from '../chart.png';
 
 
 function Trabalhos() {
@@ -65,6 +66,12 @@ function Trabalhos() {
                         tituloCard1={texts.projetos.tituloCard1}
                         descCard1={texts.projetos.descCard1} 
                         imagem={cardImage}
+                    />
+                    <Projetos
+                        link={'https://github.com/othonaf/Teste-Copybase/'}
+                        tituloCard1={texts.projetos.tituloCard2}
+                        descCard1={texts.projetos.descCard2} 
+                        imagem={chartImage}
                     />
                 </ProjetosContainer>
 

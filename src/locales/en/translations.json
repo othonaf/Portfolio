@@ -4,7 +4,7 @@
         "aboutMe": "About me",
         "worksAndExperiences": "Works and Experiences",
         "contact": "Contact",
-        "curriculum": "Curriculum"
+        "curriculum": "Curriculum (Português)"
     },
     "console": {
         "texto": "Graduated in Systems Analysis and Development from Fatene since 2017 and specialized in Fullstack programming from Labenu. Since 2021, I have been building REST APIs on the Backend with a focus on Node.JS, TypeScript, Express.JS, Knex.JS and PostgreSQL, as well as using React.JS on the Frontend. In my last contract I also had experience with tools such as: Datadog, Kibana Elastic and Google Cloud Platform. My professional ambition is to advance my career as a Backend and Frontend Developer.",
@@ -21,7 +21,9 @@
     "projetos": {
         "tituloCard1": "Mercado Pago Fee Calculator",
         "descCard1": "An application that accurately calculates the amount that must be charged on the Mercado Pago machine, if the customer wants to pay in installments for a purchase on credit.",
-        "botao": "Check"
+        "botao": "Check",
+        "tituloCard2": "Dynamic Chart Generator",
+        "descCard2": "An application that receives a .XLSX spreadsheet file from the user and, using the data in the file, generates dynamic graphs of monthly metrics."
     },
     "trabalhos": {
         "titulo": "Education and Experience",

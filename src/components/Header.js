@@ -1,7 +1,8 @@
 import React, { useState, useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import curriculo from '../curriculo.pdf'
+import curriculo from '../curriculo.pdf';
+import EnglishCurriculum from '../English_Curriculum_Othon.pdf';
 import { NavbarToggler, Navbar, Nav, NavLink, Linker, BandButton, ButtonBrasil } from '../styled'
 import { LanguageContext } from '../LanguageContext';
 import bandSpn from '../bandSpn.png'
@@ -58,6 +59,9 @@ export default function Header(args) {
             </NavItem>
             <NavItem>
               <NavLink href={curriculo} download>{texts.navbar.curriculum}</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href={EnglishCurriculum} download>Curriculum (English)</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

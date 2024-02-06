@@ -4,7 +4,7 @@
         "aboutMe": "Sobre mi",
         "worksAndExperiences": "Trabajos y experiencias",
         "contact": "Contacto",
-        "curriculum": "Historial profesional"
+        "curriculum": "Historial profesional (Português)"
     },
     "console": {
         "texto": "Licenciado en Análisis y Desarrollo de Sistemas por Fatene desde 2017 y especializado en programación Fullstack por Labenu. Desde 2021, he estado creando API REST en el Backend con enfoque en Node.JS, TypeScript, Express.JS, Knex.JS y PostgreSQL, además de usar React.JS en el Frontend. En mi último contrato también tuve experiencia con herramientas como: Datadog, Kibana Elastic y Google Cloud Platform. Mi ambición profesional es avanzar en mi carrera como Desarrollador Backend y Frontend.",
@@ -21,7 +21,9 @@
     "projetos": {
         "tituloCard1": "Calculadora de Tarifas de Mercado Pago",
         "descCard1": "Una aplicación que calcula con precisión el monto que se debe cargar en la máquina de Mercado Pago, si el cliente quiere pagar en cuotas una compra a crédito.",
-        "botao": "Controlar"
+        "botao": "Controlar",
+        "tituloCard2": "Generador de gráficos dinámicos",
+        "descCard2": "Una aplicación que recibe un archivo de hoja de cálculo .XLSX del usuario y, utilizando los datos del archivo, genera gráficos dinámicos de métricas mensuales."
     },
     "trabalhos": {
         "titulo": "Educación y experiencia",

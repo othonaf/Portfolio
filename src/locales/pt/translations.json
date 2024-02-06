@@ -4,7 +4,7 @@
         "aboutMe": "Sobre mim",
         "worksAndExperiences": "Trabalhos e Experiências",
         "contact": "Contato",
-        "curriculum": "Currículo"
+        "curriculum": "Currículo (Português)"
     },
     "console": {
         "texto": "Formado em Análise e Desenvolvimento de Sistemas pela Fatene desde 2017 e especializado em programação Fullstack pela Labenu. Desde 2021 construo APIs REST no Backend com foco em Node.JS, TypeScript, Express.JS, Knex.JS e PostgreSQL, além de utilizar React.JS no Frontend. No meu último contrato também tive experiência com ferramentas como: Datadog, Kibana Elastic e Google Cloud Platform. Minha ambição profissional é avançar em minha carreira como Desenvolvedor Backend e Frontend.",
@@ -21,7 +21,9 @@
     "projetos": {
         "tituloCard1": "Calculadora de Taxas Mercado Pago",
         "descCard1": "Uma aplicação que calcula com precisão o valor que deve ser cobrado na maquininha do Mercado Pago, caso o cliente queira parcelar uma compra no crédito.",
-        "botao": "Conferir"
+        "botao": "Conferir",
+        "tituloCard2": "Gerador de Gráficos Dinâmicos",
+        "descCard2": "Uma aplicação que recebe por upload do usuário um arquivo de planilhas .XLSX e apartir dos dados do arquivo gera gráficos dinâmicos de métricas mensais."
     },
     "trabalhos": {
         "titulo": "Educação e Experiência",
