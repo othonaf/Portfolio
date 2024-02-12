@@ -26,13 +26,13 @@
         "descCard2": "Una aplicación que recibe un archivo de hoja de cálculo .XLSX del usuario y, utilizando los datos del archivo, genera gráficos dinámicos de métricas mensuales."
     },
     "trabalhos": {
-        "titulo": "Educación y experiencia",
-        "detalheCard1": "Estudié Análisis y Desarrollo de Sistemas en la Facultad de Tecnología del Nordeste (Fatene)",
-        "detalheCard2": "Certificación de programación Fullstack",
-        "detalheCard3": "Trabajé en Hapvida Notre Dame.",
-        "detalheCard4": "Trabajé en Ame Digital, empresa del grupo Americanas (B2W).",
+        "titulo": "Educación y Experiencia",
+        "detalheCard1": "Estudié Análisis y Desarrollo de Sistemas en la Facultad de Tecnología del Nordeste (Fatene).",
+        "detalheCard2": "Certificación de programación Fullstack.",
+        "detalheCard3": "Trabajé en Hapvida Notre Dame. Fui responsable de la implementación, mantenimiento y mejora continua de sistemas y aplicaciones personalizados. Ofrezco soporte técnico especializado, cubriendo las necesidades de los usuarios y colaboro estrechamente con el equipo de desarrollo para crear soluciones efectivas.",
+        "detalheCard4": "Trabajé en Ame Digital, empresa del grupo Americanas (B2W). Colaboro estrechamente con el equipo de desarrollo para optimizar las funcionalidades de la API, garantizando una experiencia perfecta para los usuarios.",
         "card5Titulo": "2023 - momento presente",
-        "detalheCard5": "Trabajo como programador web freelance fullstack.",
+        "detalheCard5": "Trabajo como programador web freelance Fullstack construyendo API con NodeJS y Frontend en ReactJS.",
         "titulo2": "Proyectos realizados:",
         "botão": "Volver"
 

@@ -27,12 +27,12 @@
     },
     "trabalhos": {
         "titulo": "Education and Experience",
-        "detalheCard1": "I studied Systems Analysis and Development at the Faculty of Technology of the Northeast (Fatene)",
-        "detalheCard2": "Fullstack Programming Certification",
-        "detalheCard3": "I worked at Hapvida Notre Dame.",
-        "detalheCard4": "I worked at Ame Digital, a company in the Americanas group (B2W).",
+        "detalheCard1": "I studied Systems Analysis and Development at the Faculty of Technology of the Northeast (Fatene).",
+        "detalheCard2": "Fullstack Programming Certification.",
+        "detalheCard3": "I worked at Hapvida Notre Dame. I was responsible for the implementation, maintenance and continuous improvement of custom systems and applications. I offer specialized technical support, meeting users' needs and collaborate closely with the development team to create effective solutions.",
+        "detalheCard4": "I worked at Ame Digital, a company in the Americanas group (B2W). I collaborate closely with the development team to optimize API functionalities, ensuring a seamless experience for users.",
         "card5Titulo": "2023 - Moment",
-        "detalheCard5": "I work as a Freelance Fullstack Web Programmer.",
+        "detalheCard5": "I work as a Freelance Fullstack Web Programmer building APIs with NodeJS and Frontend in ReactJS.",
         "titulo2": "Projects carried out:",
         "botão": "Back"
 

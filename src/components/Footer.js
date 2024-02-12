@@ -13,7 +13,7 @@ function Footer(props) {
   const { texts } = useContext(LanguageContext);
   return (
     <Container>
-      <Background>
+      <Background id='background-footer'>
         <Row>
           <Titulo3>Othon Abraão S. Fontenele</Titulo3>
         </Row>

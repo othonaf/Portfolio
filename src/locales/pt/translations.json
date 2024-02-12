@@ -7,7 +7,7 @@
         "curriculum": "Currículo (Português)"
     },
     "console": {
-        "texto": "Sou formado em Análise e Desenvolvimento de Sistemas pela Fatene desde 2017 e especializado em programação Fullstack pela Labenu. Desde 2021 construo APIs REST no Backend com foco em Node.JS, TypeScript, Express.JS, Nest.JS e PostgreSQL. Também construo interfaces utilizando React.JS no Frontend. Além das habilidades técnicas, possuo excelente capacidade de colaboração em equipe e comunicação clara. Ao longo de minha formação acadêmica e experiência prática, desenvolvi habilidades robustas em desenvolvimento web, participei ativamente de projetos que aprimoraram a experiência do usuário, priorizando interfaces mais limpas e eficientes. Sou entusiasmado para impulsionar projetos desafiadores.",
+        "texto": "Sou graduado em Análise e Desenvolvimento de Sistemas pela Fatene desde 2017 e especializado em programação Fullstack pela Labenu. Desde 2021 construo APIs REST no Backend com foco em Node.JS, TypeScript, Express.JS, Nest.JS e PostgreSQL. Também construo interfaces utilizando React.JS no Frontend. Além das habilidades técnicas, possuo excelente capacidade de colaboração em equipe e comunicação clara. Ao longo de minha formação acadêmica e experiência prática, desenvolvi habilidades robustas em desenvolvimento web, participei ativamente de projetos que aprimoraram a experiência do usuário, priorizando interfaces mais limpas e eficientes. Sou entusiasmado para impulsionar projetos desafiadores.",
         "console3": "Sobre mim:"
     },
     "content": {
@@ -32,7 +32,7 @@
         "detalheCard3": "Trabalhei na Hapvida Notre Dame. Fui responsável pela implementação, manutenção e aprimoramento contínuo de sistemas e aplicativos personalizados. Ofereço suporte técnico especializado, atendendo às necessidades dos usuários e colaboro estreitamente com a equipe de desenvolvimento na criação desoluções eficazes.",
         "detalheCard4": "Atuei na Ame Digital, uma empresa do grupo Americanas (B2W). Colaboro estreitamente com a equipe dedesenvolvimento para otimizar as funcionalidades das APIs, garantindo uma experiência contínua aos usuários.",
         "card5Titulo": "2023 - Momento",
-        "detalheCard5": "Atuo como Programador Web Fullstack Freelancer.",
+        "detalheCard5": "Atuo como Programador Web Fullstack Freelancer construindo APIs com NodeJS e Frontend em ReactJS.",
         "titulo2": "Projetos Realizados:",
         "botão": "Voltar"
 
