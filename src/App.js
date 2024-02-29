@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { BackApp, Pai, BackFooter } from './styled';
+import { BackApp, Pai, } from './styled';
 import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
@@ -20,9 +20,7 @@ function App() {
             <Route path="/" element={<Content />} />
             <Route path="/Trabalhos" element={<Trabalhos />} />
           </Routes>
-          <BackFooter>
-            <Footer />
-          </BackFooter>
+          <Footer />
         </Pai>
 
       </LanguageProvider>

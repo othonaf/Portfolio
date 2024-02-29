@@ -119,12 +119,40 @@ export const Perfil = styled.img`
 `;
 
 export const BackFooter = styled.div`
-      margin-top: 50%;
-      background-color: #3e4451;
-      position: relative;
-      padding: 0px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    background-color: #656161;
+    font-size: larger;
+    font-family: "Consolas", 'Courier New', monospace;
+    color: #ffffff;
+    width: 100%;
+    position: relative;
+
+    @media (max-width: 767px) {
+        padding: 10px; 
+        font-size: 22px; 
+        width: fill;
+    }
+`;
+export const Nome = styled.div`
+ grid-column: span 2;
+  text-align: center;
 `;
 
+export const Contato = styled.div`
+  padding-left: 120px;
+  text-align: center;
+`;
+export const Redes = styled.div`
+  padding-right: 120px;
+  text-align: center;
+`;
+export const ContatoWhats = styled.a`
+  text-decoration: none;
+  color: white;
+`;
 export const Container = styled(RSContainer)`
     margin-top: 170px;
     align-items: center;
