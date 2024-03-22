@@ -6,6 +6,7 @@ import Projetos from './Projetos';
 import { LanguageContext } from '../LanguageContext';
 import cardImage from '../calc.png';
 import chartImage from '../chart.png';
+import Fsat from '../Site_FonteneleSat.jpg';
 
 
 function Trabalhos() {
@@ -72,6 +73,24 @@ function Trabalhos() {
                         tituloCard1={texts.projetos.tituloCard2}
                         descCard1={texts.projetos.descCard2} 
                         imagem={chartImage}
+                    />
+                    <Projetos
+                        link={'https://github.com/othonaf/backend-developer-test-Plooral-/tree/OthonASFontenele'}
+                        tituloCard1={texts.projetos.tituloCard3}
+                        descCard1={texts.projetos.descCard3} 
+                        imagem={'https://imgs.search.brave.com/GfuUq2h7M_5DMt-eq95Dp_Qlymud6lCB4gQXoM2E1tA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hcnF1/aXZvLmRldm1lZGlh/LmNvbS5ici9jdXJz/b3MvaW1hZ2VtL2N1/cnNvXzE0ODIuanBn'}
+                    />
+                    <Projetos
+                        link={'https://github.com/othonaf/FonteneleSatFrontend'}
+                        tituloCard1={texts.projetos.tituloCard4}
+                        descCard1={texts.projetos.descCard4} 
+                        imagem={Fsat}
+                    />
+                    <Projetos
+                        link={'https://github.com/othonaf/FonteneleSatFrontend'}
+                        tituloCard1={texts.projetos.tituloCard5}
+                        descCard1={texts.projetos.descCard5} 
+                        imagem={'https://i.pinimg.com/564x/74/e1/e1/74e1e16434acae34f99ec4686de8385e.jpg'}
                     />
                 </ProjetosContainer>
 

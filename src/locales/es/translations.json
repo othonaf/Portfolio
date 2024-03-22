@@ -23,7 +23,13 @@
         "descCard1": "Una aplicación que calcula con precisión el monto que se debe cargar en la máquina de Mercado Pago, si el cliente quiere pagar en cuotas una compra a crédito.",
         "botao": "Controlar",
         "tituloCard2": "Generador de gráficos dinámicos",
-        "descCard2": "Una aplicación que recibe un archivo de hoja de cálculo .XLSX del usuario y, utilizando los datos del archivo, genera gráficos dinámicos de métricas mensuales."
+        "descCard2": "Una aplicación que recibe un archivo de hoja de cálculo .XLSX del usuario y, utilizando los datos del archivo, genera gráficos dinámicos de métricas mensuales.",
+        "tituloCard3": "Aplicación backend para publicación y consultoría de ofertas de empleo.",
+         "descCard3": "Una aplicación backend para un sitio web de ofertas de empleo. Fue un proyecto desafiante que me hizo aprender más sobre la nube de AWS y el uso integrado de la IA.",
+         "tituloCard4": "Sitio web comercial con aplicación para generar cotizaciones.",
+         "descCard4": "Un sitio web para el negocio de un familiar con una sección que recibe datos del usuario y genera un PDF de una cotización dinámica. Sólo un usuario autenticado puede generar la cotización.",
+         "tituloCard5": "Sistema de organización de inventario profesional.",
+         "descCard5": "Un sistema de gestión de inventario para la empresa de un amigo. Con base de datos PostgreSQL, NodeJS y ReactJS en el Frontend. Está en construcción ahora mismo."
     },
     "trabalhos": {
         "titulo": "Educación y Experiencia",

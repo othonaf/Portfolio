@@ -69,7 +69,7 @@ export const Pai = styled.div`
     @media (max-width: 767px) {
         position: relative;  
         padding: 0px;
-        max-width: 500px;
+        width: 100%;
         font-size: 40px;
     }
     
@@ -131,9 +131,13 @@ export const BackFooter = styled.div`
     position: relative;
 
     @media (max-width: 767px) {
-        padding: 10px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
         font-size: 22px; 
-        width: fill;
+        width: 130%;
     }
 `;
 export const Nome = styled.div`
@@ -144,6 +148,11 @@ export const Nome = styled.div`
 export const Contato = styled.div`
   padding-left: 120px;
   text-align: center;
+
+  @media (max-width: 760px) {
+    text-align: center;
+    justify-content: center;
+  }
 `;
 export const Redes = styled.div`
   padding-right: 120px;

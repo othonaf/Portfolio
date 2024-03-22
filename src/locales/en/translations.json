@@ -23,7 +23,13 @@
         "descCard1": "An application that accurately calculates the amount that must be charged on the Mercado Pago machine, if the customer wants to pay in installments for a purchase on credit.",
         "botao": "Check",
         "tituloCard2": "Dynamic Chart Generator",
-        "descCard2": "An application that receives a .XLSX spreadsheet file from the user and, using the data in the file, generates dynamic graphs of monthly metrics."
+        "descCard2": "An application that receives a .XLSX spreadsheet file from the user and, using the data in the file, generates dynamic graphs of monthly metrics.",
+        "tituloCard3": "Backend application for publishing and consulting job vacancies.",
+         "descCard3": "A Backend application for a job vacancy website. It was a challenging project that made me learn more about AWS Cloud and integrated use of A.I.",
+         "tituloCard4": "Commercial website with quote generating application.",
+         "descCard4": "A website for a family member's business with a section that receives user data and generates a PDF of a dynamic quote. Only an authenticated user can generate the quote.",
+         "tituloCard5": "Professional Inventory Organization System.",
+         "descCard5": "An inventory management system for a friend's company. With PostgreSQL database, NodeJS and ReactJS on the Frontend. It's under construction right now."
     },
     "trabalhos": {
         "titulo": "Education and Experience",
