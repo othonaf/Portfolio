@@ -122,6 +122,14 @@ function HardSkills(props) {
                     <SkillName>NestJS</SkillName>
                     <SkillInfo>{texts.hardskills.nest}</SkillInfo>
                 </SkillCard>
+                <SkillCard>
+                    <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+                        <SkillImg src="https://imgs.search.brave.com/4upPOG6VAisBglNxSxFzrQKkukt6OFrSvfOuulkzqEI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jYW1v/LmdpdGh1YnVzZXJj/b250ZW50LmNvbS8y/NmQwNmE2NTcyYWE1/ZDllY2RiNjk5YWRk/NzFkNDBlNTdhZWZl/ODI0NGM2MzA2YmE1/OGE3MGFlZTZhZDUx/MjNjLzY4NzQ3NDcw/NzMzYTJmMmY2MTcz/NzM2NTc0NzMyZTc2/NjU3MjYzNjU2YzJl/NjM2ZjZkMmY2OTZk/NjE2NzY1MmY3NTcw/NmM2ZjYxNjQyZjc2/MzEzNjM2MzIzMTMz/MzAzNTM1MzkyZjZl/NjU3ODc0NmE3MzJm/NDk2MzZmNmU1ZjZj/Njk2NzY4NzQ1ZjYy/NjE2MzZiNjc3MjZm/NzU2ZTY0MmU3MDZl/Njc" alt="" />
+                    </a>
+                    <SkillLevel>90%</SkillLevel>
+                    <SkillName>NextJS</SkillName>
+                    <SkillInfo>Sou um profissional especializado em Next.js, com ampla experiência na construção de aplicações web modernas e de alta performance. Tenho um profundo conhecimento em SSR (Server-Side Rendering), SSG (Static Site Generation) e otimização de SEO, garantindo soluções eficientes e escaláveis.</SkillInfo>
+                </SkillCard>
             </SkillsContainer>
         </SkillSection>
     )

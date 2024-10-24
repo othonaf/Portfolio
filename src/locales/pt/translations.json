@@ -29,7 +29,7 @@
         "tituloCard4": "Site Comercial com aplicação geradora de orçamentos.",
         "descCard4": "Um site para a empresa de um familiar com uma seção que recebe dados do usuário e gera o PDF de um orçamento dinâmico. Somente um usuário autenticado pode gerar o orçamento.",
         "tituloCard5": "Sistema Profissional de Organização de Estoque.",
-        "descCard5": "Um Sistema de gerenciamento de estoque para a empresa de um amigo. Com banco de dados PostgreSQL, NodeJS e ReactJS no Frontend. Está em construção neste momento."
+        "descCard5": "Um Sistema de gerenciamento de estoque para a empresa de um amigo. Com banco de dados PostgreSQL, NodeJS e ReactJS no Frontend."
     },
     "trabalhos": {
         "titulo": "Educação e Experiência",

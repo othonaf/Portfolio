@@ -61,7 +61,7 @@ export default function Header(args) {
               <NavLink href={curriculo} download>{texts.navbar.curriculum}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href={EnglishCurriculum} download>Curriculum (English)</NavLink>
+              <NavLink href={EnglishCurriculum} download>Resume (CV in English)</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

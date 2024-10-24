@@ -1,10 +1,11 @@
 import React, { useContext } from 'react';
 import { Row, Col } from 'reactstrap';
-import { Container, HOME_HAND_HQYY5, Perfil, Titulo } from '../styled'
+import { Container, HOME_HAND_HQYY5, Perfil, Titulo, Badges, Certificacoes, TituloCert } from '../styled'
 import perfil2 from '../perfil2.jpeg';
 import ConsoleCard from './ConsoleCard';
 import { LanguageContext } from '../LanguageContext';
 import HardSkills from './HardSkills';
+import Badge from './Badge';
 
 
 function Content() {
@@ -35,14 +36,21 @@ function Content() {
         </Row>
 
         <Row>
-          <HardSkills text={texts.content.skills}/>
+          <HardSkills text={texts.content.skills} />
         </Row>
-
         <br></br>
-
-
-
       </Col>
+
+      <Certificacoes>
+        <TituloCert>Certificações:</TituloCert>
+        <Badges>
+          <Badge badgeId="94a4143c-013d-47e9-9113-cb1a1a697741" width="350" height="270" />
+        </Badges>
+        <Badges>
+          <Badge badgeId="c1506c6d-e200-49ca-b343-e3ccc499cf09" width="350" height="270" />
+        </Badges>
+      </Certificacoes>
+
     </Container>
 
   );

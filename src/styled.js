@@ -183,6 +183,7 @@ export const Button2 = styled(RSButton)`
 `;
 export const Titulo = styled.h4`
   padding-top: 20px;
+  padding-bottom: 20px;
 `;
 export const TitulosFooter = styled.h6`
   padding-top: 8px;
@@ -673,3 +674,45 @@ export const SkillInfo = styled.p`
   line-height: 30px;
 `;
 
+export const CardBadge = styled.div`
+  padding-top: 15px;
+  padding-left: 25px;
+`;
+
+export const Badges = styled.div`
+  &:nth-child(2) { grid-area: badge1; }
+  &:nth-child(3) { grid-area: badge2; }
+  background-color: #D3D3D3;
+  width: 400px;
+  height: 270px;
+  padding-top: 15px;
+    
+`;
+export const Certificacoes = styled.div`
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "titulo titulo"
+    "badge1 badge2";
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "titulo"
+      "badge1"
+      "badge2";
+  }
+`;
+
+export const TituloCert = styled.div`
+  grid-area: titulo;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+`;
