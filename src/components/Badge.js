@@ -19,6 +19,8 @@ function Badge({ badgeId, width, height }) {
             data-share-badge-id={badgeId}
             data-share-badge-host="https://www.credly.com"
         ></CardBadge>
+
+
     );
 }
 

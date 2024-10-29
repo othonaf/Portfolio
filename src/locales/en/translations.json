@@ -7,13 +7,14 @@
         "curriculum": "Resume (Português)"
     },
     "console": {
-        "texto": "I have a degree in Systems Analysis and Development from Fatene since 2017 and specialized in Fullstack programming from Labenu. Since 2021, I have been building REST APIs in the Backend with a focus on Node.JS, TypeScript, Express.JS, Nest.JS and PostgreSQL. I also build interfaces using React.JS on Frontend. In addition to technical skills, I have excellent team collaboration and clear communication skills. Throughout my academic training and practical experience, I developed robust skills in web development, actively participated in projects that improved the user experience, prioritizing cleaner and more efficient interfaces. I am enthusiastic about driving challenging projects.",
+        "texto": "Graduated in Systems Analysis and Development from Fatene (2017), with a specialization in Fullstack programming from Labenu. Since 2021, I have been developing REST APIs in the Backend, focusing on Node.js, TypeScript, Express.js, Nest.js and PostgreSQL. In the Frontend, I create interfaces with React.js. In addition to my technical skills, I highlight my ability to collaborate in a team and communicate clearly. My education and experience have given me robust skills in web development, and I have participated in projects that improved the user experience, prioritizing clean and efficient interfaces. I am motivated by challenges and enthusiastic about driving new projects forward.",
         "console3": "About me:"
     },
     "content": {
         "ola": "Hi, I am Othon",
         "titulo": "Fullstack Developer [Backend && Frontend]",
-        "skills": "My Skills"
+        "skills": "My Skills",
+        "certificacoes": "Certifications"
     },
     "contato": {
         "redes": "Social media:"
@@ -25,11 +26,11 @@
         "tituloCard2": "Dynamic Chart Generator",
         "descCard2": "An application that receives a .XLSX spreadsheet file from the user and, using the data in the file, generates dynamic graphs of monthly metrics.",
         "tituloCard3": "Backend application for publishing and consulting job vacancies.",
-         "descCard3": "A Backend application for a job vacancy website. It was a challenging project that made me learn more about AWS Cloud and integrated use of A.I.",
-         "tituloCard4": "Commercial website with quote generating application.",
-         "descCard4": "A website for a family member's business with a section that receives user data and generates a PDF of a dynamic quote. Only an authenticated user can generate the quote.",
-         "tituloCard5": "Professional Inventory Organization System.",
-         "descCard5": "An inventory management system for a friend's company. With PostgreSQL database, NodeJS and ReactJS on the Frontend. It's under construction right now."
+        "descCard3": "A Backend application for a job vacancy website. It was a challenging project that made me learn more about AWS Cloud and integrated use of A.I.",
+        "tituloCard4": "Commercial website with quote generating application.",
+        "descCard4": "A website for a family member's business with a section that receives user data and generates a PDF of a dynamic quote. Only an authenticated user can generate the quote.",
+        "tituloCard5": "Professional Inventory Organization System.",
+        "descCard5": "An inventory management system for a friend's company. With PostgreSQL database, NodeJS and ReactJS on the Frontend. It's under construction right now."
     },
     "trabalhos": {
         "titulo": "Education and Experience",
@@ -41,21 +42,22 @@
         "detalheCard5": "I work as a Freelance Fullstack Web Programmer building APIs with NodeJS and Frontend in ReactJS.",
         "titulo2": "Projects carried out:",
         "botão": "Back"
-
     },
     "hardskills": {
-        "javascript": "I Use with TypeScript and Node JS to create powerful Backend tools..",
-        "TypeScript": "It helps me a lot to create Web applications (especially in the Backend), I love this superset.",
-        "git": "Use for everything that is most essential for a Programmer (code versioning, etc.)",
-        "react": "The Frontend building tool that I master and prefer to use. This page was made with ReactJS.",
-        "mysql": "The world's most popular open source database",
-        "PostgreSQL": "The database I use most and prefer for personal projects",
-        "nodejs": "It's my 'strong point' at the moment, the main technology I use in web applications.",
-        "express": "It was the first web application framework with which I did something really meaningful.",
-        "heroku": "I've already created applications on both the Backend and Frontend to run on Heroku, too bad it's now paid 😢.",
-        "docker": "I have solid knowledge in programming in Microservices, creating and maintaining applications in Containers",
-        "aws": "I continue to learn about AWS, I will soon have the 'AWS Developer Associate' Certification",
-        "gcp": "I got hands-on experience in my last role.",
-        "nest": "More practical to build than ExpressJS. I'm loving NestJS too!"
+        "javascript": "With three years of experience in JavaScript development, I have a proven track record of successfully delivering projects. My past projects include inventory management systems, among others, which have resulted in more organization and efficient strategic data collection for the client. I am a dedicated collaborator and always strive to stay up to date with the latest trends in the field.",
+        "TypeScript": "I have strong experience in creating clean, scalable and highly type-safe code. I am proficient in static typing, interfaces, generics and object-oriented programming. I am passionate about building robust and reliable applications using TypeScript.",
+        "git": "Solid experience in Git and GitHub for version management and collaboration on software projects. Proficiency in workflows such as Git Flow and GitHub Flow, including branch creation, merges, pull requests and conflict resolution. Ability to use tools such as GitHub Actions to automate tasks and integrate with CI/CD.",
+        "react": "React developer with solid experience in building complex and performant user interfaces using functional and class components. Proficient in JSX and React hooks to create reusable and efficient components. Experience in optimizing the performance of React applications through techniques such as memoization and lazy loading.",
+        "mysql": "I have strong knowledge of MySQL, with experience in creating and optimizing stored procedures and triggers. Ability to automate tasks and implement complex business rules using PL/SQL. Experience working with different types of data, including textual, numeric and date/time.",
+        "PostgreSQL": "Solid experience in PostgreSQL, with strong skills in writing complex SQL queries, including joins, subqueries, aggregations and window functions. Experience in optimizing query performance through indexing, view creation and execution plan analysis. Familiarity with the latest versions of PostgreSQL and its advanced features.",
+        "nodejs": "Node.js developer with solid experience in building scalable and robust RESTful APIs. Proficiency in frameworks such as Express.js and Nest.js to create efficient back-end applications. Experience working with relational databases, using ORMs such as Sequelize and Query Builders such as knex.js.",
+        "express": "Node.js developer with solid experience in building scalable and robust RESTful APIs using Express.js. Expertise in routing, middleware and error handling to create efficient back-end applications.",
+        "heroku": "Solid experience in deploying and managing applications on Heroku. Ability to configure development, staging, and production environments. Experience in scaling applications to meet peak demand, using resources such as dynos and workers. Knowledge of using Heroku addons and monitoring tools to optimize application performance.",
+        "docker": "Solid experience in application containerization using Docker. Ability to create efficient Dockerfiles and optimize images to reduce size and increase performance. Experience with container orchestration using tools such as Docker Compose and Kubernetes to manage complex and scalable environments.",
+        "aws": "Solid experience in architecting and implementing solutions on AWS. Expertise in services such as EC2, S3, RDS, Lambda and ECS to build scalable and resilient applications. Experience in designing reference architectures and cost optimization.",
+        "gcp": "Proficient in GCP, with experience in automating deployment and infrastructure processes using tools such as Cloud Deployment Manager, Terraform and Cloud Build. Ability to configure CI/CD pipelines to ensure continuous delivery of applications. Experience working with monitoring and logging tools such as Cloud Monitoring and Cloud Logging.",
+        "nest": "Experience in building scalable and robust RESTful APIs using NestJS. Mastery of modules, controllers, services and providers to create modular and well-organized applications. Experience working with relational and NoSQL databases, using ORMs such as Sequelize and Mongoose.",
+        "next": "I am a professional specialized in Next.js, with extensive experience in building modern and high-performance web applications. I have deep knowledge in SSR (Server-Side Rendering), SSG (Static Site Generation) and SEO optimization, ensuring efficient and scalable solutions.",
+        "jest": "Strong experience in automated testing using Jest.js. Ability to write unit and integration tests to ensure code quality in JavaScript and TypeScript projects. Mastery of mocks, stubs and spies to isolate code units and simulate dependencies. Experience in setting up test environments and generating code coverage reports."
     }
 }

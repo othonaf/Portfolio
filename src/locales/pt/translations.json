@@ -7,13 +7,14 @@
         "curriculum": "Currículo (Português)"
     },
     "console": {
-        "texto": "Sou graduado em Análise e Desenvolvimento de Sistemas pela Fatene desde 2017 e especializado em programação Fullstack pela Labenu. Desde 2021 construo APIs REST no Backend com foco em Node.JS, TypeScript, Express.JS, Nest.JS e PostgreSQL. Também construo interfaces utilizando React.JS no Frontend. Além das habilidades técnicas, possuo excelente capacidade de colaboração em equipe e comunicação clara. Ao longo de minha formação acadêmica e experiência prática, desenvolvi habilidades robustas em desenvolvimento web, participei ativamente de projetos que aprimoraram a experiência do usuário, priorizando interfaces mais limpas e eficientes. Sou entusiasmado para impulsionar projetos desafiadores.",
+        "texto": "Graduado em Análise e Desenvolvimento de Sistemas pela Fatene (2017), com especialização em programação Fullstack pela Labenu. Desde 2021 desenvolvo APIs REST no Backend, focando em Node.js, TypeScript, Express.js, Nest.js e PostgreSQL. No Frontend, crio interfaces com React.js. Além das habilidades técnicas, destaco minha capacidade de colaboração em equipe e comunicação clara. Minha formação e experiência me proporcionaram habilidades robustas em desenvolvimento web, e participei de projetos que aprimoraram a experiência do usuário, priorizando interfaces limpas e eficientes. Sou motivado por desafios e entusiasmado para impulsionar novos projetos.",
         "console3": "Sobre mim:"
     },
     "content": {
         "ola": "Olá, eu sou o Othon",
         "titulo": "Desenvolvedor Fullstack [Backend && Frontend]",
-        "skills": "Minhas Skills"
+        "skills": "Minhas Skills",
+        "certificacoes": "Certificações"
     },
     "contato": {
         "redes": "Redes Sociais:"
@@ -41,21 +42,22 @@
         "detalheCard5": "Atuo como Programador Web Fullstack Freelancer construindo APIs com NodeJS e Frontend em ReactJS.",
         "titulo2": "Projetos Realizados:",
         "botão": "Voltar"
-
     },
     "hardskills": {
-        "javascript": "Uso aliado ao TypeScript e ao NodeJS para criar poderosas ferramentas de Backend.",
-        "TypeScript": "Me ajuda e muito a criar aplicações Web (principalmente no Backend), amo este superset.",
-        "git": "Uso para tudo o que é mais essencial para um Programador (versionamento de códigos, etc).",
-        "react": "A ferramenta de construção de Frontend que domino e que prefiro usar. Esta página foi feita usando ReactJS.",
-        "mysql": "O banco de dados de código aberto mais popular do mundo.",
-        "PostgreSQL": "O banco de dados que mais uso e prefiro para projetos pessoais.",
-        "nodejs": "É o meu 'ponto forte' no momento, a tecnologia principal que uso em aplicações Web.",
-        "express": "Foi a primeira estrutura de aplicação web com a qual eu fiz algo realmente relevante.",
-        "heroku": "Já criei aplicações tanto no Backend quanto no Frontend para rodarem no Heroku, pena que agora ele é pago 😢.",
-        "docker": "Tenho conhecimento sólido em programação em Microsserviços, criação e manutenção de aplicações em Containers",
-        "aws": "Sigo aprendendo sobre AWS, em breve terei a Certificação 'AWS Developer Associate'",
-        "gcp": "Tive experiência prática em minha última função.",
-        "nest": "Mais prático de se criar do que o ExpressJS. Estou amando o NestJS também!"
+        "javascript": "Com três anos de experiência em desenvolvimento JavaScript, tenho um histórico comprovado de entrega de projetos com sucesso. Meus projetos anteriores incluem sistemas de gerenciamento de estoque, entre outros que resultaram em mais organização e coleta de dados estratégica eficiente para o cliente. Sou um colaborador dedicado e busco sempre me manter atualizado com as últimas tendências da área.",
+        "TypeScript": "Tenho forte experiência em criar código limpo, escalável e altamente tipo-seguro. Domino os conceitos de tipagem estática, interfaces, generics e programação orientada a objetos. Tenho paixão por construir aplicações robustas e confiáveis utilizando TypeScript.",
+        "git": "Experiência sólida em Git e GitHub para gerenciamento de versionamento e colaboração em projetos de software. Dominio de fluxos de trabalho como Git Flow e GitHub Flow, incluindo criação de branches, merges, pull requests e resolução de conflitos. Habilidade em utilizar ferramentas como GitHub Actions para automatizar tarefas e integrar com CI/CD.",
+        "react": "Desenvolvedor React com vivência prática em construção de interfaces de usuário complexas e performantes utilizando componentes funcionais e de classe. Dominho o JSX e os hooks do React para criar componentes reutilizáveis e eficientes. Experiência em otimizar o desempenho de aplicações React através de técnicas como memoization e lazy loading.",
+        "mysql": "Possuo com forte conhecimento em MySQL, com experiência em criação e otimização de stored procedures e triggers. Habilidade em automatizar tarefas e implementar regras de negócio complexas utilizando PL/SQL. Experiência em trabalhar com diferentes tipos de dados, incluindo textuais, numéricos e data/hora.",
+        "PostgreSQL": "Experiência sólida em PostgreSQL, com forte habilidade em escrita de consultas SQL complexas, incluindo joins, subqueries, agregações e funções de janela. Experiência em otimizar o desempenho de consultas através de indexação, criação de views e análise de planos de execução. Familiarizado com as últimas versões do PostgreSQL e suas funcionalidades avançadas.",
+        "nodejs": "Desenvolvedor Node.js com sólidos conhecimentos em construção de APIs RESTful escaláveis e robustas. Domínio de frameworks como Express.js e Nest.js para criar aplicações back-end eficientes. Experiência em trabalhar com bancos de dados relacionais, utilizando ORM como Sequelize e Query Builders como o knex.js.",
+        "express": "Tenho sólida vivência em construção de APIs RESTful escaláveis e robustas utilizando Express.js. Domínio de roteamento, middleware e tratamento de erros para criar aplicações back-end eficientes.",
+        "heroku": "Experiência prática em deploy e gerenciamento de aplicações em Heroku. Habilidade em configurar ambientes de desenvolvimento, staging e produção. Experiência em escalar aplicações para atender a picos de demanda, utilizando recursos como dynos e workers. Conhecimento em utilizar addons e ferramentas de monitoramento do Heroku para otimizar o desempenho das aplicações.",
+        "docker": "Conhecimentos sólidos em containerização de aplicações utilizando Docker. Habilidade em criar Dockerfiles eficientes e otimizar imagens para reduzir o tamanho e aumentar a performance. Experiência com orquestração de containers utilizando ferramentas como Docker Compose e Kubernetes, para gerenciar ambientes complexos e escaláveis.",
+        "aws": "Experiência forte em arquitetura e implementação de soluções na AWS. Domínio de serviços como EC2, S3, RDS, Lambda e ECS para construir aplicações escaláveis e resilientes. Experiência em design de arquiteturas de referência e otimização de custos.",
+        "gcp": "Proficiente em GCP, com experiência em automatizar processos de deploy e infraestrutura utilizando ferramentas como Cloud Deployment Manager, Terraform e Cloud Build. Habilidade em configurar pipelines de CI/CD para garantir a entrega contínua de aplicações. Experiência em trabalhar com ferramentas de monitoramento e logging como Cloud Monitoring e Cloud Logging.",
+        "nest": "Experiência em construção de APIs RESTful escaláveis e robustas utilizando NestJS. Domínio de módulos, controladores, serviços e providers para criar aplicações modulares e bem organizadas. Experiência em trabalhar com bancos de dados relacionais e NoSQL, utilizando ORMs como Sequelize e Mongoose.",
+        "next": "Sou um profissional especializado em Next.js, com ampla experiência na construção de aplicações web modernas e de alta performance. Tenho um profundo conhecimento em SSR (Server-Side Rendering), SSG (Static Site Generation) e otimização de SEO, garantindo soluções eficientes e escaláveis.",
+        "jest": "Tenho bastante prática em testes automatizados utilizando Jest.js. Habilidade em escrever testes unitários e de integração para garantir a qualidade do código em projetos JavaScript e TypeScript. Domínio de mocks, stubs e spies para isolar unidades de código e simular dependências. Experiência em configurar ambientes de teste e gerar relatórios de cobertura de código."
     }
 }

@@ -549,7 +549,7 @@ export const SkillsContainer = styled.div`
   width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 100px;
   color: #fff;
 
@@ -682,7 +682,8 @@ export const CardBadge = styled.div`
 export const Badges = styled.div`
   &:nth-child(2) { grid-area: badge1; }
   &:nth-child(3) { grid-area: badge2; }
-  background-color: #D3D3D3;
+  background-color: #656161; //D3D3D3
+  color: white;
   width: 400px;
   height: 270px;
   padding-top: 15px;
@@ -699,6 +700,7 @@ export const Certificacoes = styled.div`
   justify-content: center;
   align-items: center;
   padding-left: 10%;
+  padding-bottom: 10%;
 
   @media (max-width: 500px) {
     grid-template-columns: 1fr;
@@ -708,10 +710,37 @@ export const Certificacoes = styled.div`
       "badge2";
   }
 `;
+export const Selo = styled.img`
+    position: absolute;
+    top: 93%;
+    right: 6%;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
 
+    @media (max-width: 500px) {
+      top: 95.2%;
+      right: 2%;
+  }
+
+`;
+export const Selo2 = styled.img`
+    position: absolute;
+    top: 93%;
+    left: 36%;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+
+    @media (max-width: 500px) {
+      top: 97.5%;
+      left: 68%;
+  }
+`;
 export const TituloCert = styled.div`
   grid-area: titulo;
   padding-bottom: 30px;
+  padding-right: 10%;
   justify-content: center;
   align-items: center;
   font-size: larger;
