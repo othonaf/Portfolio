@@ -34,12 +34,12 @@
     },
     "trabalhos": {
         "titulo": "Education and Experience",
-        "detalheCard1": "I studied Systems Analysis and Development at the Faculty of Technology of the Northeast (Fatene).",
-        "detalheCard2": "Fullstack Programming Certification.",
+        "detalheCard1": "I completed the Systems Analysis and Development course at Faculdade de Tecnologia do Nordeste (Fatene), where I acquired fundamental knowledge in several areas of programming, including Object-Oriented Programming (OOP), Relational Databases, Project Management, UML Modeling, Mobile Application Development and Programming Logic. During my studies, I participated in collaborative projects to complete the course, which provided me with significant growth in facing complex technical challenges.",
+        "detalheCard2": "I obtained my Fullstack Programming certification, deepening my knowledge in technologies such as Node.js and React.js. During the course, I focused on creating endpoints with Express.js and developing clean and intuitive interfaces using React. In addition, I faced several technical challenges that contributed significantly to my growth as a Fullstack Programmer..",
         "detalheCard3": "I worked at Hapvida Notre Dame. I was responsible for the implementation, maintenance and continuous improvement of custom systems and applications. I offer specialized technical support, meeting users' needs and collaborate closely with the development team to create effective solutions.",
-        "detalheCard4": "I worked at Ame Digital, a company in the Americanas group (B2W). I collaborate closely with the development team to optimize API functionalities, ensuring a seamless experience for users.",
+        "detalheCard4": "I worked at Ame Digital, a company in the Americanas group (B2W). My day-to-day was more focused on testing the company's Backend application, together with the development team to optimize the APIs' functionalities, ensuring a continuous experience for users.",
         "card5Titulo": "2023 - Moment",
-        "detalheCard5": "I work as a Freelance Fullstack Web Programmer building APIs with NodeJS and Frontend in ReactJS.",
+        "detalheCard5": "I work as a Freelance Fullstack Web Developer building APIs with NodeJS and Frontend in ReactJS. I use Express and NestJS to create the endpoints that will be consumed in the Frontend. I work with microservices in Docker and usually do my Deployments in AWS, Vercel or Heroku. I also use NextJS, and I like to style my Frontend using Styled-Components.",
         "titulo2": "Projects carried out:",
         "botão": "Back"
     },

@@ -34,12 +34,12 @@
     },
     "trabalhos": {
         "titulo": "Educación y Experiencia",
-        "detalheCard1": "Estudié Análisis y Desarrollo de Sistemas en la Facultad de Tecnología del Nordeste (Fatene).",
-        "detalheCard2": "Certificación de programación Fullstack.",
+        "detalheCard1": "Completé el curso de Análisis y Desarrollo de Sistemas en la Facultad de Tecnología del Nordeste (Fatene), donde adquirí conocimientos fundamentales en varias áreas de la programación, incluyendo Programación Orientada a Objetos (P.O.O), Bases de Datos Relacionales, Gestión de Proyectos, Modelado UML, Desarrollo de Aplicaciones Móviles. y Lógica de Programación. Durante mi formación, participé en proyectos colaborativos de finalización de cursos, lo que me proporcionó un crecimiento significativo al enfrentar desafíos técnicos complejos.",
+        "detalheCard2": "Obtuve la certificación en Programación Fullstack, profundizando mis conocimientos en tecnologías como Node.js y React.js. Durante el curso, me concentré en crear puntos finales con Express.js y desarrollar interfaces limpias e intuitivas usando React. Además, enfrenté varios desafíos técnicos que contribuyeron significativamente a mi crecimiento como Programador Fullstack.",
         "detalheCard3": "Trabajé en Hapvida Notre Dame. Fui responsable de la implementación, mantenimiento y mejora continua de sistemas y aplicaciones personalizados. Ofrezco soporte técnico especializado, cubriendo las necesidades de los usuarios y colaboro estrechamente con el equipo de desarrollo para crear soluciones efectivas.",
-        "detalheCard4": "Trabajé en Ame Digital, empresa del grupo Americanas (B2W). Colaboro estrechamente con el equipo de desarrollo para optimizar las funcionalidades de la API, garantizando una experiencia perfecta para los usuarios.",
+        "detalheCard4": "Trabajé en Ame Digital, empresa del grupo Americanas (B2W). Mi día a día estuvo más enfocado en probar la aplicación Backend de la empresa, junto con el equipo de desarrollo para optimizar las funcionalidades de las API, asegurando una experiencia continua a los usuarios.",
         "card5Titulo": "2023 - momento presente",
-        "detalheCard5": "Trabajo como programador web freelance Fullstack construyendo API con NodeJS y Frontend en ReactJS.",
+        "detalheCard5": "Trabajo como programador web freelance fullstack construyendo APIs con NodeJS y Frontend en ReactJS. Utilizo Express y NestJS para crear los puntos finales que se consumirán en el Frontend. Trabajo con microservicios en Docker y generalmente realizo mis implementaciones en AWS, Vercel o Heroku. También uso NextJS y me gusta diseñar mi Frontend usando Styled-Components.",
         "titulo2": "Proyectos realizados:",
         "botão": "Volver"
     },

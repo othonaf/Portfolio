@@ -34,12 +34,12 @@
     },
     "trabalhos": {
         "titulo": "Educação e Experiência",
-        "detalheCard1": "Cursei Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia do Nordeste (Fatene)",
-        "detalheCard2": "Certificação em Programação Fullstack, me aprofundei em Tecnologias como Node.js e React.js.",
-        "detalheCard3": "Trabalhei na Hapvida Notre Dame. Fui responsável pela implementação, manutenção e aprimoramento contínuo de sistemas e aplicativos personalizados. Ofereço suporte técnico especializado, atendendo às necessidades dos usuários e colaboro estreitamente com a equipe de desenvolvimento na criação desoluções eficazes.",
-        "detalheCard4": "Atuei na Ame Digital, uma empresa do grupo Americanas (B2W). Colaboro estreitamente com a equipe dedesenvolvimento para otimizar as funcionalidades das APIs, garantindo uma experiência contínua aos usuários.",
+        "detalheCard1": "Concluí o curso de Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia do Nordeste (Fatene), onde adquiri conhecimentos fundamentais em diversas áreas da programação, incluindo Programação Orientada a Objetos (P.O.O), Bancos de Dados Relacionais, Gerenciamento de Projetos, Modelagem UML, Desenvolvimento de Aplicações Mobile e Lógica de Programação. Durante minha formação, participei de projetos colaborativos de conclusão de curso, que me proporcionaram um crescimento significativo ao enfrentar desafios técnicos complexos." ,
+        "detalheCard2": "Obtive a certificação em Programação Fullstack, aprofundando meus conhecimentos em tecnologias como Node.js e React.js. Durante o curso, foquei na criação de endpoints com Express.js e no desenvolvimento de interfaces limpas e intuitivas utilizando React. Além disso, enfrentei diversos desafios técnicos que contribuíram significativamente para meu crescimento como Programador Fullstack.",
+        "detalheCard3": "Trabalhei na Hapvida Notre Dame. Fui responsável pela implementação, manutenção e aprimoramento contínuo de sistemas e aplicativos personalizados. Atuei oferecendo suporte técnico especializado, atendendo às necessidades dos usuários e colaborei estreitamente com a equipe de desenvolvimento na criação desoluções eficazes.",
+        "detalheCard4": "Atuei na Ame Digital, uma empresa do grupo Americanas (B2W). Meu dia a dia era mais focado em testes na aplicação Backend da empresa, em conjunto com a equipe de desenvolvimento para otimizar as funcionalidades das APIs, garantindo uma experiência contínua aos usuários.",
         "card5Titulo": "2023 - Momento",
-        "detalheCard5": "Atuo como Programador Web Fullstack Freelancer construindo APIs com NodeJS e Frontend em ReactJS.",
+        "detalheCard5": "Atuo como Programador Web Fullstack Freelancer construindo APIs com NodeJS e Frontend em ReactJS. Uso Express e NestJS para criar os endpoints que serão consumidos no Frontend. Atuo com microsserviços em Docker e geralmente faço meus Deploys na AWS, Vercel ou no Heroku. Também uso NextJS, e gosto de estilizar meu Frontend usando Styled-Components. ",
         "titulo2": "Projetos Realizados:",
         "botão": "Voltar"
     },
