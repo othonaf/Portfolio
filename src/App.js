@@ -12,7 +12,8 @@ function App() {
   useEffect(() => {
     console.log("Google Analytics ID: ", process.env.REACT_APP_GOOGLE_ANALYTICS_ID)
     ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send("pageview");
+    //ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   return (
     <Router>
