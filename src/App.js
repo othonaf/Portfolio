@@ -6,7 +6,7 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 import Trabalhos from './components/Trabalhos';
 import { LanguageProvider } from './LanguageContext';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function App() {
   useEffect(() => {
