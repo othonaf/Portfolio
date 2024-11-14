@@ -7,8 +7,8 @@ import esTranslations from './locales/es/translations.json';
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('pt');
-  const [texts, setTexts] = useState(ptTranslations);
+  const [language, setLanguage] = useState('en');
+  const [texts, setTexts] = useState(enTranslations);
 
   const changeLanguage = (lang) => {
     setLanguage(lang);
