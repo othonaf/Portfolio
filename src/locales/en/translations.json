@@ -2,6 +2,7 @@
     "navbar": {
         "start": "Start",
         "aboutMe": "About me",
+        "jobMatch": "Are you in a hurry?",
         "worksAndExperiences": "Works and Experiences",
         "contact": "Contact",
         "curriculum": "Resume (Português)"
@@ -59,5 +60,13 @@
         "nest": "Experience in building scalable and robust RESTful APIs using NestJS. Mastery of modules, controllers, services and providers to create modular and well-organized applications. Experience working with relational and NoSQL databases, using ORMs such as Sequelize and Mongoose.",
         "next": "I am a professional specialized in Next.js, with extensive experience in building modern and high-performance web applications. I have deep knowledge in SSR (Server-Side Rendering), SSG (Static Site Generation) and SEO optimization, ensuring efficient and scalable solutions.",
         "jest": "Strong experience in automated testing using Jest.js. Ability to write unit and integration tests to ensure code quality in JavaScript and TypeScript projects. Mastery of mocks, stubs and spies to isolate code units and simulate dependencies. Experience in setting up test environments and generating code coverage reports."
+    },
+    "prompt": {
+        "titulo": "In a hurry?",
+        "subtitulo": "Enter the skills you're looking for or full job description in the field below, and let me tell you how I can help you with that!",
+        "descricao": "Paste the job description here...",
+        "botao_Op1": "Submit",
+        "botao_Op2": "Loading...",
+        "resposta": "My Answer:"
     }
 }

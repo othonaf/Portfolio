@@ -745,3 +745,135 @@ export const TituloCert = styled.div`
   align-items: center;
   font-size: larger;
 `;
+
+export const JobMatch = styled.div`
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+
+  @media (max-width: 768px) { 
+    padding: 5%; 
+    font-size: large; 
+    margin: 5%;
+  } 
+  @media (max-width: 480px) { 
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    padding: 50% 1% 30% 0%;
+    font-size: xx-large !important;
+  }
+`;
+export const DivResponse = styled.div`
+    display: grid; 
+    grid-template-rows: auto; 
+    background-color: rgb(48, 52, 67) !important; 
+    border-radius: 4%; 
+    font-family: "Montserrat", sans-serif;
+    font-size: large; 
+    text-align: justify; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10%; 
+    margin: 10px 0 15% 0; 
+    column-count: 2 !important; 
+    column-gap: 20px;
+    
+    p { 
+      margin-bottom: 1em; /* Espaçamento entre parágrafos */ 
+      line-height: 1.6; /* Altura da linha para melhor legibilidade */ 
+    }
+
+    @media (max-width: 768px) 
+    { 
+      padding: 5%; 
+      font-size: small; 
+      column-count: 1; /* Ajusta para uma coluna em telas menores */ 
+    } 
+    @media (max-width: 480px) 
+    { 
+      padding: 15px; 
+      font-size: smaller; 
+      column-count: 1; 
+      text-align: left;
+    }
+`;
+
+export const MatchTitulo = styled.h1`
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10%;
+  @media (max-width: 480px) { 
+    text-align: justify;
+    margin-bottom: 10%;
+  }
+`;
+
+export const MatchSubtitulo = styled.h2`
+  font-family: "Josefin Sans", sans-serif;
+  text-align: justify;
+  text-decoration: solid;
+  font-size: x-large;
+  @media (max-width: 480px) { 
+    text-align: auto; 
+    font-size: x-large;
+  }
+`;
+
+export const MatchButton = styled.button`
+    background-color: #1E90FF;
+    margin-left: 35%;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    align-items: center;
+    width: 270px;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    &:hover {
+        background-color: #656161; 
+    }
+    @media (max-width: 480px) { 
+      margin-left: 5%;
+    }
+`;
+
+export const TextArea = styled.textarea`
+    width: 80%; 
+    height: 150px; 
+    padding: 10px;
+    margin: 10px 0 10px 10%; 
+    border: 1px solid #ccc; 
+    justify-content: center;
+    border-radius: 4px; 
+    font-size: 16px; 
+    font-family: 'Arial', sans-serif; 
+    resize: vertical; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: 
+    border-color 0.3s, 
+    box-shadow 0.3s; 
+    &:focus { 
+      border-color: #007BFF; 
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      outline: none; 
+      } 
+    &::placeholder 
+      { 
+        color: #aaa; 
+        font-size: 16px;
+      }
+    @media (max-width: 480px) { 
+        width: 95%; 
+        margin: 10px 0 5px 3%; 
+  }
+`;

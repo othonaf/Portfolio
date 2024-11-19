@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
 import Trabalhos from './components/Trabalhos';
+import JobMatcher from './components/JobMatcher';
 import { LanguageProvider } from './LanguageContext';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Content />} />
             <Route path="/Trabalhos" element={<Trabalhos />} />
+            <Route path="/JobMatcher" element={<JobMatcher />} />
           </Routes>
           <Footer />
         </Pai>

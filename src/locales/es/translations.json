@@ -2,6 +2,7 @@
     "navbar": {
         "start": "Comenzar",
         "aboutMe": "Sobre mi",
+        "jobMatch": "¿Tienes prisa?",
         "worksAndExperiences": "Trabajos y experiencias",
         "contact": "Contacto",
         "curriculum": "Historial profesional (Português)"
@@ -59,5 +60,13 @@
         "nest": "Experiencia en la creación de API RESTful escalables y robustas utilizando NestJS. Dominio de módulos, controladores, servicios y proveedores para crear aplicaciones modulares y bien organizadas. Experiencia trabajando con bases de datos relacionales y NoSQL, utilizando ORM como Sequelize y Mongoose.",
         "next": "Soy un profesional especializado en Next.js, con amplia experiencia en la construcción de aplicaciones web modernas y de alto rendimiento. Tengo un profundo conocimiento en SSR (Server-Side Rendering), SSG (Static Site Generation) y optimización del SEO, asegurando soluciones eficientes y escalables.",
         "jest": "Experiencia sólida en pruebas automatizadas usando Jest.js. Capacidad para escribir pruebas unitarias y de integración para garantizar la calidad del código en proyectos de JavaScript y TypeScript. Dominio de simulacros, stubs y espías para aislar unidades de código y simular dependencias. Experiencia en configuración entornos de prueba y generación de informes de cobertura de código."
+    },
+    "prompt": {
+        "titulo": "¿Tienes prisa?",
+        "subtitulo": "Ingresa las habilidades que estás buscando o la descripción completa del trabajo en el campo a continuación, ¡y déjame decirte cómo puedo ayudarte con eso!",
+        "descricao": "Pegue la descripción del trabajo aquí...",
+        "botao_Op1": "Enviar",
+        "botao_Op2": "Cargando...",
+        "resposta": "Mi respuesta:"
     }
 }

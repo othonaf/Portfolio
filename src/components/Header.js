@@ -55,6 +55,9 @@ export default function Header(args) {
               <NavLink ><Linker to="/trabalhos">{texts.navbar.worksAndExperiences}</Linker></NavLink>
             </NavItem>
             <NavItem>
+              <NavLink ><Linker to="/JobMatcher">{texts.navbar.jobMatch}</Linker></NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink ><Linker to="#background-footer">{texts.navbar.contact}</Linker></NavLink>
             </NavItem>
             <NavItem>

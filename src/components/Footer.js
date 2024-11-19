@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import { Titulo3, Whatsapp, BackFooter, TitulosFooter, Nome, Contato, Redes, ContatoWhats} from '../styled'
-import whatsimage from '../whatsimage.png';
-import outlook from '../outlook.png';
+import { Titulo3, BackFooter, TitulosFooter, Nome, Contato, Redes, ContatoWhats} from '../styled'
+import { SiWhatsapp } from "react-icons/si";
+import { PiMicrosoftOutlookLogoFill } from "react-icons/pi";
 import { LanguageContext } from '../LanguageContext';
 
 const anoAtual = new Date().toLocaleDateString('pt-BR', {
@@ -19,12 +19,12 @@ function Footer(props) {
       <Contato>
         <TitulosFooter>
           <ContatoWhats href="https://wa.me/5585998105575" target="_blank" rel="noreferrer">
-            <Whatsapp src={whatsimage} alt='' /> (85) 99810-5575
+            <SiWhatsapp /> (85) 99810-5575
           </ContatoWhats>
         </TitulosFooter>
         <TitulosFooter>
           <ContatoWhats href="mailto:othon.ab@hotmail.com" target="_blank" rel="noreferrer">
-            <Whatsapp src={outlook} alt='' /> othon.ab@hotmail.com
+            <PiMicrosoftOutlookLogoFill /> othon.ab@hotmail.com
           </ContatoWhats>
         </TitulosFooter>
       </Contato>
