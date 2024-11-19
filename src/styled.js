@@ -116,6 +116,14 @@ export const ButtonBrasil = styled.img`
 `;
 export const Perfil = styled.img`
     border-radius: 50%;
+    margin-bottom: 5%;
+    width: 299px;
+    height: 300px;
+`;
+
+export const MeuTitulo = styled.h1`
+   font-family: "Kanit", sans-serif;
+   font-size: 50px;
 `;
 
 export const BackFooter = styled.div`
@@ -184,6 +192,7 @@ export const Button2 = styled(RSButton)`
 export const Titulo = styled.h4`
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: "Kanit", sans-serif;
 `;
 export const TitulosFooter = styled.h6`
   padding-top: 8px;
@@ -309,6 +318,7 @@ export const CartaoTitulo = styled.h1`
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
 `;
 export const Cartao = styled.div`
   position: relative;
@@ -421,23 +431,23 @@ export const Cartao = styled.div`
   }
 
   &:nth-child(2), &:nth-child(2):before{
-    background: #ff4f4f;
+    background: #7B68EE;
   }
 
   &:nth-child(3), &:nth-child(3):before{
-    background: #ffb84f;
-  }
-
-  &:nth-child(4), &:nth-child(4):before{
-    background: #3dca5c;
-  }
-
-  &:nth-child(5), &:nth-child(5):before{
     background: #565252;
   }
 
-  &:nth-child(6), &:nth-child(6):before{
+  &:nth-child(4), &:nth-child(4):before{
     background: #4fa0ff;
+  }
+
+  &:nth-child(5), &:nth-child(5):before{
+    background: #FF6347;
+  }
+
+  &:nth-child(6), &:nth-child(6):before{
+    background: #46006C;
   }
 
   &:nth-child(even) ${CartaoBody}:before{
@@ -669,9 +679,29 @@ export const SkillName = styled.h1`
 
 export const SkillInfo = styled.p`
   text-align: center;
-  opacity: 0.5;
+  color: white;
   font-size: 18px;
   line-height: 30px;
+  padding: 2%;
+  
+  @media (max-width: 480px) { 
+    font-size: larger;
+    
+  }
+`;
+
+export const TrabalhosDesc = styled.p`
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 2%;
+  
+  @media (max-width: 480px) { 
+    font-size: larger;
+    
+  }
 `;
 
 export const CardBadge = styled.div`
@@ -719,7 +749,7 @@ export const Selo = styled.img`
     z-index: 1;
 
     @media (max-width: 500px) {
-      top: 95.2%;
+      top: 95.8%;
       right: 2%;
   }
 
@@ -733,7 +763,7 @@ export const Selo2 = styled.img`
     z-index: 1;
 
     @media (max-width: 500px) {
-      top: 97.5%;
+      top: 97.7%;
       left: 68%;
   }
 `;
@@ -819,6 +849,7 @@ export const MatchSubtitulo = styled.h2`
   text-decoration: solid;
   font-size: x-large;
   @media (max-width: 480px) { 
+    background-color: rgb(48, 52, 67) !important;
     text-align: auto; 
     font-size: x-large;
   }

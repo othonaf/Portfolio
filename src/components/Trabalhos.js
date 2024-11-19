@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { LinhaDireita, Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2, ProjetosContainer } from '../styled'
+import { LinhaDireita, Container, Timeline, Heading, Cartao, CartaoBody, CartaoTitulo, Col, Button2, ProjetosContainer, TrabalhosDesc } from '../styled'
 import { Row } from 'reactstrap';
 import { useNavigate } from 'react-router-dom';
 import Projetos from './Projetos';
@@ -27,31 +27,31 @@ function Trabalhos() {
                         <Cartao>
                             <CartaoBody>
                                 <CartaoTitulo>2014-2017</CartaoTitulo>
-                                <p>{texts.trabalhos.detalheCard1}</p>
+                                <TrabalhosDesc>{texts.trabalhos.detalheCard1}</TrabalhosDesc>
                             </CartaoBody>
                         </Cartao>
                         <Cartao>
                             <LinhaDireita>
                                 <CartaoTitulo>2021-2022</CartaoTitulo>
-                                <p>{texts.trabalhos.detalheCard2}</p>
+                                <TrabalhosDesc>{texts.trabalhos.detalheCard2}</TrabalhosDesc>
                             </LinhaDireita>
                         </Cartao>
                         <Cartao>
                             <CartaoBody>
                                 <CartaoTitulo>2020-2022</CartaoTitulo>
-                                <p>{texts.trabalhos.detalheCard3}</p>
+                                <TrabalhosDesc>{texts.trabalhos.detalheCard3}</TrabalhosDesc>
                             </CartaoBody>
                         </Cartao>
                         <Cartao>
                             <LinhaDireita>
                                 <CartaoTitulo>2022-2023</CartaoTitulo>
-                                <p>{texts.trabalhos.detalheCard4}</p>
+                                <TrabalhosDesc>{texts.trabalhos.detalheCard4}</TrabalhosDesc>
                             </LinhaDireita>
                         </Cartao>
                         <Cartao>
                             <CartaoBody>
                                 <CartaoTitulo>{texts.trabalhos.card5Titulo}</CartaoTitulo>
-                                <p>{texts.trabalhos.detalheCard5}</p>
+                                <TrabalhosDesc>{texts.trabalhos.detalheCard5}</TrabalhosDesc>
                             </CartaoBody>
                         </Cartao>
                     </Timeline>

@@ -5,6 +5,7 @@ import curriculo from '../curriculo.pdf';
 import EnglishCurriculum from '../English_Curriculum_Othon.pdf';
 import { NavbarToggler, Navbar, Nav, NavLink, Linker, BandButton, ButtonBrasil } from '../styled'
 import { LanguageContext } from '../LanguageContext';
+import { FaHandPointRight } from "react-icons/fa";
 import bandSpn from '../bandSpn.png'
 import {
   NavbarBrand,
@@ -50,21 +51,21 @@ export default function Header(args) {
         </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar>
-            <NavbarBrand ><Linker to="/#sobre-mim">{texts.navbar.aboutMe}</Linker></NavbarBrand>
+            <NavbarBrand ><Linker to="/#sobre-mim"><FaHandPointRight /> {texts.navbar.aboutMe}</Linker></NavbarBrand>
             <NavItem>
-              <NavLink ><Linker to="/trabalhos">{texts.navbar.worksAndExperiences}</Linker></NavLink>
+              <NavLink ><Linker to="/trabalhos"><FaHandPointRight /> {texts.navbar.worksAndExperiences}</Linker></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink ><Linker to="/JobMatcher">{texts.navbar.jobMatch}</Linker></NavLink>
+              <NavLink ><Linker to="/JobMatcher"><FaHandPointRight /> {texts.navbar.jobMatch}</Linker></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink ><Linker to="#background-footer">{texts.navbar.contact}</Linker></NavLink>
+              <NavLink ><Linker to="#background-footer"><FaHandPointRight /> {texts.navbar.contact}</Linker></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href={curriculo} download>{texts.navbar.curriculum}</NavLink>
+              <NavLink href={curriculo} download><FaHandPointRight /> {texts.navbar.curriculum}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href={EnglishCurriculum} download>Resume (CV in English)</NavLink>
+              <NavLink href={EnglishCurriculum} download><FaHandPointRight /> Resume (CV in English)</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

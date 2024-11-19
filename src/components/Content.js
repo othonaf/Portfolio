@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Row, Col } from 'reactstrap';
-import { Container, HOME_HAND_HQYY5, Perfil, Titulo, Badges, Certificacoes, TituloCert, Selo, Selo2 } from '../styled'
-import perfil2 from '../perfil2.jpeg';
+import { Container, HOME_HAND_HQYY5, Perfil, Titulo, Badges, Certificacoes, TituloCert, Selo, Selo2, MeuTitulo } from '../styled';
+import perfil from '../perfil.png';
 import ConsoleCard from './ConsoleCard';
 import { LanguageContext } from '../LanguageContext';
 import HardSkills from './HardSkills';
@@ -15,13 +15,13 @@ function Content() {
     <Container>
       <Row>
         <Col>
-          <Perfil src={perfil2} alt='' width="200" height="200" />
+          <Perfil src={perfil} alt='' width="200" height="200" />
         </Col>
       </Row>
       <Row>
-        <Col><h2>{texts.content.ola}
+        <Col><MeuTitulo>{texts.content.ola}
           <HOME_HAND_HQYY5>👋</HOME_HAND_HQYY5>
-        </h2>
+        </MeuTitulo>
         </Col>
       </Row>
       <Row>
