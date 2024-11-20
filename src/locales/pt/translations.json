@@ -9,11 +9,11 @@
     },
     "console": {
         "texto": "Desenvolvedor Fullstack com sólida experiência em automatização de processos e construção de soluções web robustas. Formado em Análise e Desenvolvimento de Sistemas, possuo um histórico consistente em criação de sistemas e automatização de tarefas, otimizando processos e aumentando a eficiência das equipes. Com especialização em Fullstack, dominei tecnologias como React.js, Typescript, Node.js e outras, aplicando meus conhecimentos em projetos desafiadores. Atuo com foco em desenvolvimento backend e frontend, construindo APIs RESTful e interfaces intuitivas. Sou apaixonado por programação e busco constantemente novas tecnologias e melhores práticas de desenvolvimento. Possuo experiência em metodologias ágeis, como Scrum, e valorizo o trabalho em equipe e a colaboração.",
-        "console3": "Sobre mim:"
+        "console3": "/Sobre mim:"
     },
     "content": {
         "ola": "Olá, eu sou o Othon",
-        "titulo": "Desenvolvedor Fullstack [Backend && Frontend]",
+        "titulo": "Desenvolvedor FullStack { Backend && Frontend }",
         "skills": "Minhas Skills",
         "certificacoes": "Certificações"
     },

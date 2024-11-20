@@ -9,11 +9,11 @@
     },
     "console": {
         "texto": "Fullstack developer with solid experience in process automation and building robust web solutions. With a degree in Systems Analysis and Development, I have a solid track record in creating systems and automating tasks, optimizing processes and increasing team efficiency. With a specialization in Fullstack, I have mastered technologies such as React.js, Typescript, Node.js and others, applying my knowledge to challenging projects. I focus on backend and frontend development, building RESTful APIs and intuitive interfaces. I am passionate about programming and constantly seek out new technologies and best development practices. I have experience in agile methodologies, such as Scrum, and I value teamwork and collaboration.",
-        "console3": "About me:"
+        "console3": "/About me:"
     },
     "content": {
         "ola": "Hi, I am Othon",
-        "titulo": "Fullstack Developer [Backend && Frontend]",
+        "titulo": "FullStack Developer { Backend && Frontend }",
         "skills": "My Skills",
         "certificacoes": "Certifications"
     },

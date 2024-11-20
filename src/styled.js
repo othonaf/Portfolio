@@ -122,7 +122,7 @@ export const Perfil = styled.img`
 `;
 
 export const MeuTitulo = styled.h1`
-   font-family: "Kanit", sans-serif;
+   font-family: "Audiowide", sans-serif;
    font-size: 50px;
 `;
 
@@ -160,18 +160,32 @@ export const Contato = styled.div`
   @media (max-width: 760px) {
     text-align: center;
     justify-content: center;
+    padding-left: 10px;
   }
 `;
 export const Redes = styled.div`
   padding-right: 120px;
   text-align: center;
+  @media (max-width: 760px) {
+    text-align: center;
+    justify-content: center;
+    padding-right: 10px;
+    font-size: x-large;
+  }
 `;
 export const ContatoWhats = styled.a`
   text-decoration: none;
-  color: white;
+  color: white; 
+  @media (max-width: 760px) {
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    padding-right: 15px;
+    margin-top: 15px;
+  }
 `;
 export const Container = styled(RSContainer)`
-    margin-top: 170px;
+    margin-top: 150px;
     align-items: center;
     text-align: center;
     font-size: larger;
@@ -193,10 +207,19 @@ export const Titulo = styled.h4`
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: "Kanit", sans-serif;
+  font-size: xx-large;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  /* background-color: rgb(24,24,24); */
 `;
 export const TitulosFooter = styled.h6`
   padding-top: 8px;
   font-size: medium;
+  @media (max-width: 760px) {
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0%;
+  }
 `;
 export const Titulo3 = styled.h4`
     padding-top: 20px;
@@ -263,7 +286,7 @@ export const HOME_HAND_HQYY5 = styled.span`
 export const Card = styled(RSCard)`
     font-size: larger;
     margin-top: 180px;
-    background-color: rgb(48, 52, 67);
+    background-color: rgb(24,24,24);
     color: #ffffff;
 `;
 export const Console1 = styled.code`
@@ -689,7 +712,29 @@ export const SkillInfo = styled.p`
     
   }
 `;
-
+export const RedesIcons = styled.p`
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  line-height: 30px;
+  padding: 2%;
+  margin-left: 10%;
+  @media (max-width: 480px) { 
+    font-size: 88px;
+    
+  }
+`;
+export const RedesItens = styled.a`
+  text-decoration: none;
+  color: white; 
+  padding-right: 25px;
+  @media (max-width: 760px) {
+    font-size: 48px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+`;
 export const TrabalhosDesc = styled.p`
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -860,7 +905,7 @@ export const MatchButton = styled.button`
     margin-left: 35%;
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: white;
     border-radius: 15px;
     align-items: center;
     width: 270px;

@@ -25,7 +25,7 @@ function Content() {
         </Col>
       </Row>
       <Row>
-        <Col><Titulo>{texts.content.titulo}.</Titulo></Col>
+        <Col><Titulo>– {texts.content.titulo} – </Titulo></Col>
       </Row>
       <br></br>
 
