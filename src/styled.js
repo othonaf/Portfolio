@@ -1,4 +1,6 @@
 import styled, { keyframes } from 'styled-components';
+import { SiWhatsapp as RIWhats } from "react-icons/si";
+import { PiMicrosoftOutlookLogoFill as RIoutlook} from "react-icons/pi";
 import {
   Container as RSContainer,
   NavbarToggler as RSNavbarToggler,
@@ -14,6 +16,12 @@ import {
 import { Link as RRLink } from 'react-router-dom';
 import fundo1 from './fundo1.jpg';
 
+export const SiWhatsapp = styled(RIWhats)`
+    font-size: larger;
+`;
+export const PiMicrosoftOutlookLogoFill = styled(RIoutlook)`
+    font-size: x-large;
+`;
 
 export const CardsProjetos = styled(RSCard)`
     background-color: #4e4e4e;
@@ -209,13 +217,12 @@ export const Titulo = styled.h4`
   font-family: "Kanit", sans-serif;
   font-size: xx-large;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-  /* background-color: rgb(24,24,24); */
 `;
 export const TitulosFooter = styled.h6`
   padding-top: 8px;
-  font-size: medium;
+  font-size: large;
   @media (max-width: 760px) {
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
     justify-content: center;
     margin-left: 0%;
