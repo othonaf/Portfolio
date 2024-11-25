@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { SiWhatsapp as RIWhats } from "react-icons/si";
-import { PiMicrosoftOutlookLogoFill as RIoutlook} from "react-icons/pi";
+import { PiMicrosoftOutlookLogoFill as RIoutlook } from "react-icons/pi";
 import {
   Container as RSContainer,
   NavbarToggler as RSNavbarToggler,
@@ -18,9 +18,11 @@ import fundo1 from './fundo1.jpg';
 
 export const SiWhatsapp = styled(RIWhats)`
     font-size: larger;
+    color: #128C7E;
 `;
 export const PiMicrosoftOutlookLogoFill = styled(RIoutlook)`
     font-size: x-large;
+    color: #0072C6;
 `;
 
 export const CardsProjetos = styled(RSCard)`
@@ -139,10 +141,10 @@ export const BackFooter = styled.div`
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 1fr;
     margin-top: 20px;
-    background-color: #656161;
+    background-color: #D3D3D3;
     font-size: larger;
-    font-family: "Consolas", 'Courier New', monospace;
-    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    color: #000000;
     width: 100%;
     position: relative;
 
@@ -183,7 +185,7 @@ export const Redes = styled.div`
 `;
 export const ContatoWhats = styled.a`
   text-decoration: none;
-  color: white; 
+  color: #000000; 
   @media (max-width: 760px) {
     font-size: x-large;
     text-align: center;
@@ -742,6 +744,19 @@ export const RedesItens = styled.a`
     margin-top: 15px;
   }
 `;
+export const YoutubeItem = styled(RedesItens)` 
+    color: #FF0000;
+`;
+export const LinkedinItem = styled(RedesItens)` 
+    color: #0A66C2; 
+`;
+export const Telegram = styled(RedesItens)`
+    color: #0088CC;  
+`;
+export const GitHubItem = styled(RedesItens)`
+    color: #000000;  
+`;
+
 export const TrabalhosDesc = styled.p`
   text-align: center;
   font-family: "Montserrat", sans-serif;
